@@ -1,0 +1,192 @@
+﻿// server/auth.js
+import { Router } from "express";
+import passport from "passport";
+import { Strategy as GoogleStrategy } from "passport-google-oauth20";
+import nodemailer from "nodemailer";
+
+const router = Router();
+
+// Session serialization
+passport.serializeUser((user, done) => done(null, user));
+passport.deserializeUser((obj, done) => done(null, obj));
+
+// Configure Google OAuth Strategy AFTER env is loaded
+export function configureAuth() {
+  const { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_CALLBACK_URL } = process.env;
+  if (!GOOGLE_CLIENT_ID || !GOOGLE_CLIENT_SECRET || !GOOGLE_CALLBACK_URL) {
+    console.warn("[auth] GOOGLE_* env vars not set; Google OAuth disabled (email login may still be enabled)");
+    return;
+  }
+
+  passport.use(
+    new GoogleStrategy(
+      {
+        clientID: GOOGLE_CLIENT_ID,
+        clientSecret: GOOGLE_CLIENT_SECRET,
+        callbackURL: GOOGLE_CALLBACK_URL,
+      },
+      async (_accessToken, _refreshToken, profile, done) => {
+        try {
+          const user = {
+            id: profile.id,
+            displayName: profile.displayName,
+            email: profile.emails?.[0]?.value || null,
+            photo: profile.photos?.[0]?.value || null,
+            provider: "google",
+          };
+          return done(null, user);
+        } catch (e) {
+          return done(e);
+        }
+      }
+    )
+  );
+}
+
+// Initiate Google OAuth
+router.get(
+  "/google",
+  passport.authenticate("google", { scope: ["profile", "email"] })
+);
+
+// OAuth callback
+router.get(
+  "/google/callback",
+  passport.authenticate("google", { failureRedirect: "/?login=failed" }),
+  (req, res) => {
+    const to = process.env.POST_LOGIN_REDIRECT || "http://localhost:5173/";
+    res.redirect(to);
+  }
+);
+
+// Current session user
+router.get("/me", (req, res) => {
+  res.json({ user: req.user || null });
+});
+
+// Logout
+router.post("/logout", (req, res, next) => {
+  req.logout((err) => {
+    if (err) return next(err);
+    req.session?.destroy(() => res.json({ ok: true }));
+  });
+});
+
+export default router;
+
+// ======== EMAIL (OTP) LOGIN FLOW ========
+const OTP_TTL_MS = 5 * 60 * 1000; // 5 minutes
+const OTP_LEN = 6;
+const MAX_ATTEMPTS = 5;
+const pendingOtps = new Map(); // email -> { code, expAt, attempts }
+
+function allowedDomains() {
+  const s = process.env.ALLOWED_EMAIL_DOMAINS || ""; // e.g. "company.com,subsidiary.com"
+  return s.split(",").map((d) => d.trim().toLowerCase()).filter(Boolean);
+}
+
+function emailDomainOK(email) {
+  const doms = allowedDomains();
+  if (!doms.length) return true; // if not set, allow any (dev)
+  const at = String(email).toLowerCase().split("@").pop();
+  return doms.includes(at);
+}
+
+function genCode() {
+  let s = "";
+  for (let i = 0; i < OTP_LEN; i++) s += Math.floor(Math.random() * 10);
+  return s;
+}
+
+function getTransport() {
+  const mode = process.env.EMAIL_MODE || "console"; // console | smtp
+  if (mode === "smtp") {
+    const host = process.env.SMTP_HOST;
+    const port = Number(process.env.SMTP_PORT || 587);
+    const secure = String(process.env.SMTP_SECURE || "false").toLowerCase() === "true";
+    const user = process.env.SMTP_USER;
+    const pass = process.env.SMTP_PASS;
+    if (!host || !user || !pass) {
+      console.warn("[auth] SMTP not fully configured; falling back to console email mode");
+    } else {
+      return nodemailer.createTransport({ host, port, secure, auth: { user, pass } });
+    }
+  }
+  return null; // console mode
+}
+
+async function sendCodeEmail(to, code) {
+  const from = process.env.EMAIL_FROM || "no-reply@example.com";
+  const transport = getTransport();
+  const subject = "Your sign-in code";
+  const text = `Your GAINS sign-in code is: ${code}\nThis code expires in 5 minutes.`;
+  const html = `<div style="font-family:system-ui,Segoe UI,Arial,sans-serif;font-size:16px;color:#0f172a">
+    <p>Hello,</p>
+    <p>Your GAINS sign-in code is:</p>
+    <div style="font-size:28px;font-weight:800;letter-spacing:4px;padding:12px 16px;border:1px solid #e2e8f0;border-radius:12px;display:inline-block;background:#f8fafc">${code}</div>
+    <p style="color:#475569">This code expires in 5 minutes.</p>
+  </div>`;
+  if (transport) {
+    await transport.sendMail({ from, to, subject, text, html });
+  } else {
+    console.log("[auth] EMAIL_MODE=console; sign-in code:", { to, code });
+  }
+}
+
+router.post("/request-otp", async (req, res) => {
+  try {
+    const { email } = req.body || {};
+    if (!email || typeof email !== "string" || !email.includes("@")) {
+      return res.status(400).json({ ok: false, error: "Valid email required" });
+    }
+    if (!emailDomainOK(email)) {
+      return res.status(400).json({ ok: false, error: "Email domain not allowed" });
+    }
+
+    const code = genCode();
+    const expAt = Date.now() + OTP_TTL_MS;
+    pendingOtps.set(email.toLowerCase(), { code, expAt, attempts: 0 });
+
+    try {
+      await sendCodeEmail(email, code);
+    } catch (e) {
+      console.error("[auth] Failed to send OTP email:", e.message);
+      return res.status(500).json({ ok: false, error: "Failed to send code" });
+    }
+
+    return res.json({ ok: true });
+  } catch (e) {
+    return res.status(500).json({ ok: false, error: e.message });
+  }
+});
+
+router.post("/verify-otp", (req, res, next) => {
+  const { email, code } = req.body || {};
+  const key = String(email || "").toLowerCase();
+  const rec = pendingOtps.get(key);
+  if (!key || !code || !rec) return res.status(400).json({ ok: false, error: "Invalid code" });
+  if (Date.now() > rec.expAt) {
+    pendingOtps.delete(key);
+    return res.status(400).json({ ok: false, error: "Code expired" });
+  }
+  rec.attempts++;
+  if (rec.attempts > MAX_ATTEMPTS) {
+    pendingOtps.delete(key);
+    return res.status(429).json({ ok: false, error: "Too many attempts" });
+  }
+  if (String(code) !== String(rec.code)) {
+    return res.status(400).json({ ok: false, error: "Incorrect code" });
+  }
+
+  pendingOtps.delete(key);
+  const user = {
+    id: `email:${key}`,
+    displayName: key.split("@")[0],
+    email: key,
+    provider: "email-otp",
+  };
+  req.login(user, (err) => {
+    if (err) return next(err);
+    return res.json({ ok: true, user });
+  });
+});

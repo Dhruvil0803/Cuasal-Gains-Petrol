@@ -1,0 +1,151 @@
+Here's the complete breakdown of how every number and label in 
+  that panel is calculated:
+
+  ---
+  1. Per-Metric Anomaly Score (the 4 mini bars)
+
+  For each of the 4 metrics — pressure, temperature, flow_rate,  
+  fuel_level — every node type has a defined normal operating    
+  range in nodes_data.py:
+
+  'pump_station': { 'pr': (40, 120), 'te': (30, 70), 'fr': (30,  
+  100), 'fl': (40, 80) }
+  #                  pressure bar     temp °C          flow L/m  
+         fuel %
+
+  The anomaly score for a metric is how far the current live     
+  value sits from the center of that range, expressed as a       
+  percentage of the half-width:
+
+  midpoint   = (lo + hi) / 2
+  half_range = (hi - lo) / 2
+
+  deviation  = |value - midpoint| / half_range   ← 0 = perfect   
+  center, 1 = at boundary
+  score      = min(100, deviation × 100)
+
+  Example — Pump Station pressure range (40, 120):
+  - midpoint = 80, half_range = 40
+  - If current pressure = 112 bar → deviation = |112−80|/40 = 0.8
+   → score = 80
+  - If current pressure = 78 bar → deviation = |78−80|/40 = 0.05 
+  → score = 5
+
+  So score = 0 means the value is exactly in the middle of       
+  normal. Score = 100 means it's at or beyond the threshold      
+  boundary.
+
+  ---
+  2. Composite Anomaly Score (the big number /100)
+
+  The four metric scores are combined as a weighted average —    
+  because not all metrics matter equally for pipeline health:    
+
+  composite = (pressure × 0.35) + (flow_rate × 0.30) +
+  (temperature × 0.25) + (fuel_level × 0.10)
+
+  Weights reflect real-world priority:
+  - Pressure (35%) — most critical, over-pressure can rupture    
+  pipelines
+  - Flow rate (30%) — blockages or surges propagate downstream   
+  fast
+  - Temperature (25%) — overheating damages equipment
+  - Fuel level (10%) — operational concern, less immediately     
+  dangerous
+
+  ---
+  3. Risk Level Badge
+
+  A simple threshold on the composite score:
+
+  ┌────────┬──────────────────┐
+  │ Score  │    Risk Level    │
+  ├────────┼──────────────────┤
+  │ 0–24   │ normal (green)   │
+  ├────────┼──────────────────┤
+  │ 25–49  │ watch (yellow)   │
+  ├────────┼──────────────────┤
+  │ 50–74  │ warning (orange) │
+  ├────────┼──────────────────┤
+  │ 75–100 │ critical (red)   │
+  └────────┴──────────────────┘
+
+  ---                                                              4. Est. Time to Critical
+                                                                 
+  Derived directly from the composite score — a rough operational   estimate:                                                        
+  ┌───────┬─────────────┐                                        
+  │ Score │    Time     │
+  ├───────┼─────────────┤
+  │ < 30  │ > 72 hrs    │
+  ├───────┼─────────────┤
+  │ 30–49 │ 24 – 72 hrs │                                        
+  ├───────┼─────────────┤                                          │ 50–69 │ 6 – 24 hrs  │                                        
+  ├───────┼─────────────┤                                          │ ≥ 70  │ < 6 hrs     │
+  └───────┴─────────────┘                                           
+  Higher anomaly score = less time before the node crosses into a   critical failure state.
+                                                                 
+  ---
+  5. Trend Arrow (↑ → ↓)
+                                                                 
+  The trend is deterministic — it doesn't change randomly on each   page load. It's computed from the characters of the node ID +   metric name:
+                                                                 
+  h = sum(ord(c) for c in (node_id + metric))
+  trend = ["rising", "stable", "falling"][h % 3]                 
+                                                                   For example, "PS001" + "pressure" always gives the same          character sum → always the same trend. This simulates a sensor 
+  that has a consistent observed direction without needing real  
+  historical time-series data.
+
+  ---
+  6. Downstream Risk Propagation
+                                                                 
+  Uses the same BFS (breadth-first search) graph traversal as
+  before, but instead of just listing affected nodes, it attaches   a decaying risk score to each:
+                                                                   propagated_risk = composite_score × (0.72 ^ hop_distance)      
+                                                                   ┌─────────────────────┬─────────────────┐                        │         Hop         │ Risk multiplier │                      
+  ├─────────────────────┼─────────────────┤                        │ 1 (direct neighbor) │ × 0.72          │
+  ├─────────────────────┼─────────────────┤                      
+  │ 2 hops away         │ × 0.72² = 0.52  │                      
+  ├─────────────────────┼─────────────────┤                        │ 3 hops              │ × 0.72³ = 0.37  │                      
+  ├─────────────────────┼─────────────────┤                        │ 4 hops              │ × 0.72⁴ = 0.27  │
+  └─────────────────────┴─────────────────┘                         
+  The 0.72 decay factor means each pipeline segment absorbs ~28%   of the anomaly before passing it on — modeling the physical
+  attenuation of pressure/flow disturbances through the network. 
+  
+  Each downstream node then gets its own risk level badge using    the same 25/50/75 thresholds applied to its propagated score.
+                                                                   On the map, these propagated risk levels control the color       highlighting:
+  - critical or warning → orange (high-risk, "direct" style)       - watch → yellow (lower risk, "transitive" style)                 
+  ---                                                              7. Recommendations
+                                                                 
+  Generated only when a metric's anomaly score exceeds 60
+  (meaning it's in the outer 40% of its expected range —           significantly off-center):
+                                                                   ┌─────────────┬───────────────────────────────┐                  │ Metric > 60 │        Recommendation         │
+  ├─────────────┼───────────────────────────────┤                
+  │ pressure    │ Inspect pressure regulators   │
+  ├─────────────┼───────────────────────────────┤
+  │ temperature │ Check cooling/heating systems │
+  ├─────────────┼───────────────────────────────┤                  │ flow_rate   │ Verify flow meters & valves   │
+  ├─────────────┼───────────────────────────────┤                
+  │ fuel_level  │ Schedule fuel replenishment   │
+  └─────────────┴───────────────────────────────┘
+
+  If nothing exceeds 60, either "Continue monitoring" (if          composite > 30) or "All parameters within normal bounds."
+                                                                 
+  ---
+  Summary Flow
+                                                                   live metrics (make_metrics)
+          ↓                                                      
+  per-metric deviation from range center                         
+          ↓                                                        4 anomaly scores (0–100)                                       
+          ↓                                                      
+  weighted composite score  →  risk level  →  time to critical   
+          ↓                                                        BFS downstream graph  ×  0.72^hop  →  propagated risk per node 
+          ↓                                                        worst metric scores > 60  →  recommendations
+                                                                   The key design choice is: deviation from the center of normal    range rather than just checking if a value exceeds a hard      
+  threshold. This means a node is flagged early — when it drifts 
+  toward the edge of normal — not only when it's already broken.
+
+✻ Cooked for 35s     
+                                                                 ─────────────────────────────────────────────────────────────────❯  
+─────────────────────────────────────────────────────────────────
+  ? for shortcuts
+                                                                                                                                  

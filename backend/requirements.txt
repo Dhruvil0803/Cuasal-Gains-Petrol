@@ -1,0 +1,15 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pandas==2.2.2
+python-multipart==0.0.9
+requests==2.31.0
+langchain
+langgraph
+langchain-core
+langchain-community
+ipython
+python-dotenv
+langchain-openai
+langchain-groq
+arxiv
+wikipedia

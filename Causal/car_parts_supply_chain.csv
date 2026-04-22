@@ -1,0 +1,81 @@
+supplier,factory,warehouse,retailer,volume,lead_time_days,transport_cost,delay_days,quality_score,defect_rate,production_cost
+Bosch,BMW Leipzig,Munich Hub,AutoZone,620,12,4200,1,0.96,0.018,31500
+Bosch,BMW Leipzig,Munich Hub,O'Reilly,580,12,3980,0,0.97,0.015,30800
+Bosch,Mercedes Stuttgart,Frankfurt Hub,Advance Auto,710,14,4850,2,0.94,0.022,34200
+Bosch,Mercedes Stuttgart,Frankfurt Hub,NAPA,690,13,4700,1,0.95,0.020,33600
+Continental,VW Wolfsburg,Hamburg Hub,AutoZone,540,10,3600,0,0.93,0.025,28900
+Continental,VW Wolfsburg,Hamburg Hub,O'Reilly,510,11,3450,1,0.92,0.028,27500
+Continental,BMW Leipzig,Munich Hub,Pep Boys,490,13,3750,2,0.91,0.031,26800
+Continental,Ford Detroit,Chicago Hub,AutoZone,660,18,5100,3,0.89,0.038,35400
+Denso,Toyota Georgetown,Atlanta Hub,O'Reilly,730,9,4100,0,0.98,0.012,29600
+Denso,Toyota Georgetown,Atlanta Hub,NAPA,700,9,3980,0,0.97,0.014,29100
+Denso,Toyota Cambridge,Toronto Hub,AutoZone,680,11,4300,1,0.96,0.016,30200
+Denso,Honda Ohio,Chicago Hub,Advance Auto,640,12,4150,1,0.95,0.019,28700
+Magna,Ford Detroit,Chicago Hub,AutoZone,820,15,5600,2,0.92,0.026,38900
+Magna,Ford Detroit,Chicago Hub,Pep Boys,790,15,5400,3,0.91,0.029,37600
+Magna,GM Lansing,Detroit Hub,O'Reilly,750,16,5200,2,0.90,0.032,36100
+Magna,GM Lansing,Detroit Hub,NAPA,720,16,5000,3,0.89,0.035,34800
+BorgWarner,Ford Detroit,Chicago Hub,AutoZone,480,17,4800,3,0.88,0.040,32500
+BorgWarner,GM Lansing,Detroit Hub,O'Reilly,510,18,5100,4,0.87,0.043,33200
+BorgWarner,BMW Leipzig,Munich Hub,Advance Auto,440,14,4200,2,0.91,0.030,29800
+BorgWarner,Mercedes Stuttgart,Frankfurt Hub,NAPA,460,13,4050,1,0.93,0.024,30600
+Aisin,Toyota Georgetown,Atlanta Hub,AutoZone,590,10,3700,0,0.97,0.013,27400
+Aisin,Toyota Cambridge,Toronto Hub,O'Reilly,560,11,3850,1,0.96,0.016,26900
+Aisin,Honda Ohio,Chicago Hub,Pep Boys,530,12,3600,1,0.95,0.018,25800
+Aisin,Toyota Georgetown,Atlanta Hub,NAPA,610,10,3900,0,0.98,0.011,28300
+Valeo,Mercedes Stuttgart,Frankfurt Hub,AutoZone,670,13,4600,2,0.93,0.023,31900
+Valeo,BMW Leipzig,Munich Hub,O'Reilly,640,12,4350,1,0.94,0.021,31200
+Valeo,VW Wolfsburg,Hamburg Hub,Advance Auto,600,11,4100,1,0.92,0.027,29500
+Valeo,Renault Paris,Paris Hub,NAPA,550,9,3500,0,0.95,0.019,27100
+ZF,BMW Leipzig,Munich Hub,AutoZone,760,14,5300,2,0.94,0.022,36800
+ZF,Mercedes Stuttgart,Frankfurt Hub,O'Reilly,730,13,5100,1,0.95,0.020,35900
+ZF,VW Wolfsburg,Hamburg Hub,Pep Boys,700,12,4900,2,0.93,0.025,34200
+ZF,Ford Detroit,Chicago Hub,NAPA,680,17,5500,3,0.90,0.033,37100
+Aptiv,GM Lansing,Detroit Hub,AutoZone,420,16,4600,3,0.88,0.042,30100
+Aptiv,Ford Detroit,Chicago Hub,O'Reilly,450,17,4900,4,0.87,0.045,31800
+Aptiv,BMW Leipzig,Munich Hub,Advance Auto,390,13,4100,2,0.91,0.031,28400
+Aptiv,Mercedes Stuttgart,Frankfurt Hub,NAPA,410,14,4300,2,0.92,0.028,29200
+Lear,Ford Detroit,Chicago Hub,AutoZone,500,16,5000,3,0.89,0.037,32700
+Lear,GM Lansing,Detroit Hub,O'Reilly,480,17,5200,4,0.88,0.040,33500
+Lear,BMW Leipzig,Munich Hub,Pep Boys,460,13,4400,2,0.92,0.026,30100
+Lear,VW Wolfsburg,Hamburg Hub,NAPA,440,11,4100,1,0.93,0.023,28600
+Bosch,Toyota Georgetown,Atlanta Hub,Pep Boys,650,11,4400,1,0.96,0.017,32100
+Bosch,Honda Ohio,Chicago Hub,AutoZone,600,13,4600,2,0.94,0.021,31800
+Continental,Mercedes Stuttgart,Frankfurt Hub,Pep Boys,520,13,3900,2,0.91,0.030,27900
+Continental,BMW Leipzig,Munich Hub,NAPA,500,12,3700,1,0.92,0.027,27200
+Denso,Ford Detroit,Chicago Hub,Pep Boys,560,17,4700,3,0.90,0.035,30500
+Denso,GM Lansing,Detroit Hub,AutoZone,580,18,4900,3,0.89,0.038,31200
+Magna,Toyota Georgetown,Atlanta Hub,Pep Boys,700,11,4900,1,0.93,0.024,35600
+Magna,Mercedes Stuttgart,Frankfurt Hub,AutoZone,720,14,5200,2,0.92,0.026,36400
+BorgWarner,Toyota Georgetown,Atlanta Hub,Pep Boys,470,11,4000,1,0.92,0.029,28100
+BorgWarner,Honda Ohio,Chicago Hub,AutoZone,490,13,4300,2,0.90,0.034,29400
+Aisin,Mercedes Stuttgart,Frankfurt Hub,AutoZone,545,13,4000,1,0.94,0.022,26500
+Aisin,BMW Leipzig,Munich Hub,Advance Auto,570,12,4200,1,0.95,0.019,27800
+Valeo,Honda Ohio,Chicago Hub,AutoZone,580,13,4200,2,0.91,0.029,29000
+Valeo,Ford Detroit,Chicago Hub,O'Reilly,560,17,4800,3,0.89,0.036,30800
+ZF,Toyota Georgetown,Atlanta Hub,AutoZone,720,10,4800,0,0.96,0.016,34500
+ZF,Honda Ohio,Chicago Hub,O'Reilly,700,13,5100,2,0.93,0.024,35200
+Aptiv,Toyota Georgetown,Atlanta Hub,Pep Boys,380,10,3800,1,0.93,0.026,27500
+Aptiv,VW Wolfsburg,Hamburg Hub,AutoZone,400,11,3900,1,0.92,0.028,28100
+Lear,Toyota Georgetown,Atlanta Hub,AutoZone,510,10,4200,0,0.94,0.021,31000
+Lear,Mercedes Stuttgart,Frankfurt Hub,O'Reilly,490,13,4500,2,0.92,0.026,31600
+Bosch,VW Wolfsburg,Hamburg Hub,AutoZone,630,11,4100,1,0.95,0.019,30200
+Bosch,GM Lansing,Detroit Hub,O'Reilly,610,16,4900,3,0.92,0.024,31600
+Continental,Toyota Georgetown,Atlanta Hub,AutoZone,470,10,3300,0,0.94,0.020,26100
+Continental,Toyota Cambridge,Toronto Hub,O'Reilly,450,11,3400,1,0.93,0.022,25400
+Denso,Mercedes Stuttgart,Frankfurt Hub,AutoZone,640,13,4500,1,0.96,0.015,29800
+Denso,VW Wolfsburg,Hamburg Hub,O'Reilly,620,11,4200,1,0.95,0.018,28500
+Magna,VW Wolfsburg,Hamburg Hub,AutoZone,770,11,5300,1,0.93,0.025,37200
+Magna,Toyota Cambridge,Toronto Hub,O'Reilly,750,12,5100,1,0.94,0.022,36500
+BorgWarner,VW Wolfsburg,Hamburg Hub,AutoZone,430,11,3900,1,0.91,0.032,28700
+BorgWarner,Mercedes Stuttgart,Frankfurt Hub,O'Reilly,450,13,4100,2,0.92,0.029,29500
+Aisin,Ford Detroit,Chicago Hub,AutoZone,520,17,4300,3,0.90,0.033,25200
+Aisin,GM Lansing,Detroit Hub,O'Reilly,500,18,4500,4,0.88,0.038,24800
+Valeo,Toyota Cambridge,Toronto Hub,AutoZone,590,11,3900,1,0.93,0.024,28600
+Valeo,GM Lansing,Detroit Hub,O'Reilly,570,18,4700,4,0.88,0.041,30200
+ZF,Toyota Cambridge,Toronto Hub,AutoZone,710,12,5000,1,0.95,0.018,34800
+ZF,GM Lansing,Detroit Hub,O'Reilly,690,18,5700,4,0.89,0.036,38200
+Aptiv,Toyota Cambridge,Toronto Hub,AutoZone,360,11,3600,1,0.93,0.025,27000
+Aptiv,Honda Ohio,Chicago Hub,O'Reilly,380,13,3900,2,0.91,0.031,27800
+Lear,Toyota Cambridge,Toronto Hub,AutoZone,470,11,3900,1,0.93,0.024,29400
+Lear,Honda Ohio,Chicago Hub,O'Reilly,455,13,4100,2,0.91,0.029,30100

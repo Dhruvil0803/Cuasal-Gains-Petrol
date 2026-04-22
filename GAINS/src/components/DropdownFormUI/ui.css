@@ -1,0 +1,341 @@
+/* ─── Resets ───────────────────────────────────────────────────────────── */
+html, body, #root { height: 100%; }
+* { box-sizing: border-box; }
+
+/* ---- Bright theme tokens (text + accents) ---- */
+:root{
+  --text-strong:#0f172a;  /* slate-900 */
+  --text:#1f2937;         /* slate-800 */
+  --text-weak:#64748b;    /* slate-500 */
+  --accent:#F47920;       /* Ascentt orange */
+  --accent-2:#334155;     /* slate-700 */
+}
+.card-header, .card-header *,
+.card-body,   .card-body   *,
+.sidebar,     .sidebar     * { opacity: 1 !important; }
+
+/* ─── Sidebar ─────────────────────────────────────────────────────────── */
+.sidebar{
+  width:300px;
+  background:transparent !important;
+  border-right:1px solid rgba(148,163,184,.28) !important;
+  padding:24px;
+  box-shadow:none !important;
+  flex-shrink:0;
+}
+.side-title{ color:var(--text) !important; }
+.side-block + .side-block{ margin-top:20px; }
+
+/* ─── Main app area (page background set by App.jsx) ──────────────────── */
+.app{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  display:flex;
+  height:100%;
+  min-height:0;
+  background:transparent;
+  color:var(--text);
+  overflow:auto !important;                    /* .app is the scroll container */
+  -webkit-overflow-scrolling:touch;
+  scrollbar-gutter:stable both-edges;
+}
+
+/* Workspace (layout only; no scrolling here) */
+.content{
+  flex:1;
+  display:flex;
+  align-items:stretch;
+  justify-content:center;
+  min-width:0;
+  padding:32px 40px;
+  overflow:visible !important;                 /* scrolling handled by .app */
+}
+
+/* ─── FLAT MODE: remove card chrome (kept for layout only) ────────────── */
+.card{
+  width:100%;
+  max-width:1200px;
+  background:transparent !important;
+  border:0 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  min-width:0;
+  --footer-h:72px;
+  flex:0 0 auto;
+  min-height:0;
+}
+
+/* Header: horizontal scroll with hidden scrollbar */
+.card-header{
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  height:auto !important;
+  flex:0 0 auto !important;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:16px;
+  overflow-x:auto !important;                  /* allow sideways scroll */
+  overflow-y:visible;
+  white-space:nowrap;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-gutter:stable;
+  scrollbar-width:none;                        /* Firefox */
+  -ms-overflow-style:none;                     /* Old Edge/IE */
+}
+.card-header::-webkit-scrollbar{ display:none; height:0; width:0; }
+
+.card-title{
+  color:var(--text-strong);
+  font-weight:800;
+  font-size:22px;
+  letter-spacing:.2px;
+  text-transform:none;
+  margin:0 16px 0 0;
+}
+
+/* Pills tabs (bright) */
+.tabs-inline{
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  display:flex;
+  gap:10px;
+  margin-left:auto;
+  flex:0 0 auto;
+  min-width:max-content;
+}
+.tabs-inline button{
+  border:1px solid #e2e8f0;
+  background:#f8fafc;
+  color:#475569;
+  font-weight:700;
+  padding:6px 12px;
+  border-radius:999px;
+  cursor:pointer;
+  transition:background .15s ease, border-color .15s ease, color .15s ease;
+}
+.tabs-inline button:hover{ background:#f1f5f9; border-color:#cbd5e1; color:#1f2937; }
+.tabs-inline button.active{ color:#D4621A; background:#FEF3E8; border-color:#FBCFA4; }
+
+.card-body{
+  height:auto !important;
+  min-height:0;
+  padding:0 !important;
+  background:transparent !important;
+  overflow:visible !important;
+}
+.card-footer{
+  position:static !important;
+  height:auto !important;
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:16px 0 0 !important;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+/* ─── Form blocks (flat; spacing & headings) ──────────────────────────── */
+.context{
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  margin:0 0 20px !important;
+}
+.context h4{
+  margin:0 0 10px !important;
+  font-size:13px;
+  font-weight:800;
+  color:#0f172a;
+  letter-spacing:.35px;
+  text-transform:uppercase;
+  opacity:.9;
+}
+.placeholder{
+  background:transparent !important;
+  border:0 !important;
+  padding:14px 0 !important;
+  color:var(--text-weak) !important;
+  text-align:left !important;
+}
+
+/* ─── Fields ───────────────────────────────────────────────────────────── */
+.field{ margin-bottom:16px; }
+.label{
+  display:block;
+  font-size:12.5px;
+  font-weight:700;
+  color:var(--text);
+  margin-bottom:6px;
+  letter-spacing:.3px;
+}
+.input, .select, .textarea{
+  width:100%;
+  padding:10px 12px;
+  border:1px solid #cbd5e1;
+  border-radius:8px;
+  font-size:14px;
+  color:#0f172a;
+  background:#fff;
+  outline:none;
+  transition:border-color .15s, box-shadow .15s, background-color .15s;
+}
+.input:hover, .select:hover, .textarea:hover{ border-color:#94a3b8; }
+.input:focus, .select:focus, .textarea:focus{
+  border-color:var(--accent);
+  box-shadow:0 0 0 3px rgba(244,121,32,.18);
+  background:#fff;
+}
+.input--checkbox{ width:auto; height:auto; }
+.textarea{ resize:vertical; min-height:80px; font-family:inherit; }
+.help{ font-size:12px; color:#6b7280; margin-top:8px; }
+
+.selector-grid{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.selector-grid.wide{ grid-template-columns:1fr; }
+.form-grid{ display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px; }
+.form-grid.wide{ grid-template-columns:1fr; }
+.prop-grid{ display:grid; grid-template-columns:1fr 150px 46px; gap:10px; align-items:center; }
+
+/* Pills / notices / alerts (bright) */
+.pill{
+  display:inline-block;
+  padding:2px 8px;
+  border:1px solid #e2e8f0;
+  border-radius:999px;
+  background:#f8fafc;
+  color:#0f172a;
+  font-size:12px;
+}
+.notice{
+  position:relative;
+  padding:12px 16px;
+  font-size:14px;
+  font-weight:600;
+  color:#065f46;
+  background:#ecfdf5;
+  border:1px solid #a7f3d0;
+  border-radius:8px;
+}
+.alert{
+  position:relative;
+  padding:12px 16px;
+  font-size:14px;
+  font-weight:600;
+  color:#7f1d1d;
+  background:#fef2f2;
+  border:1px solid #fecaca;
+  border-radius:8px;
+  max-height:160px;
+  overflow:auto;
+  word-break:break-word;
+}
+
+/* ─── Buttons — same bright style as “card” version ───────────────────── */
+.btn{
+  background:#ffffff !important;
+  color:var(--accent-2);
+  border:1px solid #e2e8f0 !important;
+  padding:6px 12px;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:14px;
+  font-weight:700;
+  letter-spacing:.3px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  transition:transform .08s ease, box-shadow .15s ease, background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+.btn:hover{
+  color:#0f172a;
+  background:#f8fafc !important;
+  border-color:#cbd5e1 !important;
+  box-shadow:0 4px 14px rgba(2,6,23,.06);
+}
+.btn:focus-visible{ outline:2px solid rgba(244,121,32,.5); outline-offset:2px; border-radius:8px; }
+.btn--primary{ color:#ffffff !important; background:#F47920 !important; border-color:#D4621A !important; }
+.btn--ghost{ color:#1f2937 !important; background:#ffffff !important; }
+.btn--sm{ padding:4px 10px; font-size:13px; }
+.btn--md{ padding:6px 12px; font-size:14px; }
+.btn.is-disabled, .btn[disabled]{
+  opacity:.5; cursor:not-allowed; background:#f1f5f9 !important; color:#94a3b8 !important; transform:none !important; border-color:#e5e7eb !important;
+}
+.btn__spinner{
+  width:14px; height:14px; border-radius:50%;
+  border:2px solid #FBCFA4; border-top-color:#F47920;
+  display:inline-block; animation:spin .9s linear infinite;
+}
+@keyframes spin{ to{ transform:rotate(360deg); } }
+
+/* ─── Loader: spinner only (no background box) ─────────────────────────── */
+.loader-screen{
+  position:fixed; inset:0; display:flex; align-items:center; justify-content:center;
+  background:transparent !important; z-index:9999;
+}
+.loader-box{
+  background:transparent !important; border:0 !important; box-shadow:none !important;
+  padding:0 !important; text-align:center; color:var(--text);
+}
+.spinner{
+  width:22px; height:22px; border-radius:50%;
+  border:3px solid #FBCFA4; border-top-color:#F47920;
+  margin:0 auto 8px; animation:spin .9s linear infinite;
+}
+.loader-text{ color:var(--text); font-weight:700; }
+
+/* ─── Modal (light) ───────────────────────────────────────────────────── */
+.modal-backdrop{ position:fixed; inset:0; background:rgba(2,6,23,.45); display:flex; align-items:center; justify-content:center; }
+.modal{ width:520px; max-width:92vw; background:#ffffff; color:var(--text); border-radius:12px; border:1px solid #e2e8f0; box-shadow:0 18px 40px rgba(2,6,23,.18); }
+.modal-header{ padding:14px 16px; font-weight:800; background:#f8fafc; color:#0f172a; border-top-left-radius:12px; border-top-right-radius:12px; border-bottom:1px solid #e2e8f0; }
+.modal-body{ padding:16px; }
+.modal-actions{ padding:12px 16px; display:flex; justify-content:flex-end; gap:10px; border-top:1px solid #e2e8f0; }
+
+/* ─── Utilities / Height guards ────────────────────────────────────────── */
+.actions{ display:flex; gap:8px; }
+.content .app{ height:100%; }
+.app{ display:flex; }
+.content{ height:100%; min-height:0; }   /* layout container */
+.card{ height:auto; min-height:0; }      /* natural height growth */
+
+/* === Balanced contrast text overrides (bright) ========================= */
+.app,
+.app .card-header,
+.app .card-body,
+.sidebar{
+  color:#1f2937 !important; /* slate-800 */
+  font-weight:500;
+}
+.card-title,
+.side-title,
+.app h1, .app h2, .app h3{
+  color:#0f172a !important; /* slate-900 */
+  font-weight:700 !important;
+  letter-spacing:.2px;
+}
+.tabs-inline button{ color:#475569 !important; font-weight:600; }
+.tabs-inline button.active{ color:#D4621A !important; background:#FEF3E8 !important; }
+.placeholder,
+.help,
+.pill,
+.notice,
+.alert,
+.app .muted{ color:#64748b !important; }
+
+/* === Sidebar spacing tune-up ========================================== */
+.sidebar .side-block + .side-block { margin-top: 28px !important; }  /* was 20px */
+.sidebar .label { margin-bottom: 8px !important; }                   /* was 6px  */
+.sidebar .field { margin-bottom: 20px !important; }                  /* was 16px */
+.sidebar .side-title { margin-bottom: 10px !important; }             /* add air  */
+
+/* Optional: add tiny spacing before primary action button */
+.sidebar .btn { margin-top: 6px; }
+

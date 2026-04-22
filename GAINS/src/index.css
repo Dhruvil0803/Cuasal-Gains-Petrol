@@ -1,0 +1,59 @@
+/* index.css — Ascentt brand theme */
+/* theme tokens via body class */
+
+body.theme-light {
+  --app-bg: #f5f4f2;
+  --panel-bg: #ffffff;
+  --card-bg: #ffffff;
+  --border:  #e8e4de;
+  --text:    #0b1219;
+  --accent:  #F47920;
+  --accent-dark: #D4621A;
+  --accent-bg: #FEF3E8;
+  --accent-border: #FBCFA4;
+}
+body.theme-dark {
+  --app-bg: #0b0e13;
+  --panel-bg: #0f1116;
+  --card-bg: #15171d;
+  --border:  #2c313c;
+  --text:    #e5e7eb;
+  --accent:  #F47920;
+  --accent-dark: #D4621A;
+  --accent-bg: #2a1a0a;
+  --accent-border: #8b4a1a;
+}
+
+/* apply to fixed chrome outside React pieces */
+
+body.theme-light, body.theme-dark {
+  background: var(--app-bg);
+  color: var(--text);
+}
+.topbar, .app-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e8e4de;
+  color: var(--text);
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f4f2;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* optional: keep your link styling */
+
+a { color: #F47920; text-decoration: none; }
+a:hover { color: #D4621A; }
+
+/* remove global button styling (or scope it if you need it elsewhere) */
+/* button { ... }  <-- delete this block */
+
+/* index.css — Ascentt brand theme */
+/* theme tokens via body class */

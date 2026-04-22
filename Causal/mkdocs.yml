@@ -1,0 +1,8 @@
+site_name: "Graph-MVP-App"
+site_description: "This help global manufacturers and supply chain leaders simplify data, automate workflows, and scale AI — without disrupting core systems.​"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

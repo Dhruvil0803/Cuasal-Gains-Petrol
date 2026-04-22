@@ -1,0 +1,1001 @@
+sensor_id,timestamp,pressure,temperature,flow_rate,fuel_level,location,status
+S001,2024-01-01 00:00:00,3.98,36.24,127.37,83.0,Pump Station Alpha,warning
+S001,2024-01-01 00:30:00,4.21,38.16,107.1,80.84,Pump Station Alpha,normal
+S001,2024-01-01 01:00:00,4.28,39.29,134.92,81.15,Pump Station Alpha,normal
+S001,2024-01-01 01:30:00,4.72,39.83,110.88,86.67,Pump Station Alpha,normal
+S001,2024-01-01 02:00:00,4.31,35.79,128.29,84.97,Pump Station Alpha,normal
+S001,2024-01-01 02:30:00,4.18,39.6,113.48,88.04,Pump Station Alpha,normal
+S001,2024-01-01 03:00:00,4.96,36.94,119.42,83.3,Pump Station Alpha,warning
+S001,2024-01-01 03:30:00,4.22,39.29,133.17,84.58,Pump Station Alpha,normal
+S001,2024-01-01 04:00:00,4.49,35.39,113.3,85.13,Pump Station Alpha,normal
+S001,2024-01-01 04:30:00,4.59,37.62,106.43,84.24,Pump Station Alpha,normal
+S001,2024-01-01 05:00:00,4.82,37.41,128.2,84.95,Pump Station Alpha,normal
+S001,2024-01-01 05:30:00,4.15,39.57,124.15,84.64,Pump Station Alpha,normal
+S001,2024-01-01 06:00:00,4.85,40.55,123.69,85.6,Pump Station Alpha,normal
+S001,2024-01-01 06:30:00,4.95,36.99,131.44,81.19,Pump Station Alpha,warning
+S001,2024-01-01 07:00:00,4.8,38.32,116.66,86.94,Pump Station Alpha,normal
+S001,2024-01-01 07:30:00,4.29,37.14,114.93,81.19,Pump Station Alpha,normal
+S001,2024-01-01 08:00:00,4.02,37.46,114.84,85.62,Pump Station Alpha,warning
+S001,2024-01-01 08:30:00,4.59,40.29,102.4,82.76,Pump Station Alpha,normal
+S001,2024-01-01 09:00:00,4.62,40.35,107.95,87.23,Pump Station Alpha,normal
+S001,2024-01-01 09:30:00,4.89,39.44,120.9,82.63,Pump Station Alpha,warning
+S001,2024-01-01 10:00:00,3.99,39.12,102.69,88.77,Pump Station Alpha,warning
+S001,2024-01-01 10:30:00,4.68,35.45,129.92,84.54,Pump Station Alpha,normal
+S001,2024-01-01 11:00:00,4.47,37.65,106.47,86.13,Pump Station Alpha,normal
+S001,2024-01-01 11:30:00,4.37,35.41,115.86,82.63,Pump Station Alpha,normal
+S001,2024-01-01 12:00:00,4.24,40.35,131.97,81.03,Pump Station Alpha,normal
+S001,2024-01-01 12:30:00,4.4,35.23,112.52,84.3,Pump Station Alpha,normal
+S001,2024-01-01 13:00:00,4.44,36.08,132.31,86.64,Pump Station Alpha,normal
+S001,2024-01-01 13:30:00,4.44,40.69,124.55,83.18,Pump Station Alpha,normal
+S001,2024-01-01 14:00:00,4.74,40.06,123.78,86.65,Pump Station Alpha,normal
+S001,2024-01-01 14:30:00,4.56,39.73,134.98,80.96,Pump Station Alpha,normal
+S001,2024-01-01 15:00:00,4.16,35.35,130.59,88.41,Pump Station Alpha,normal
+S001,2024-01-01 15:30:00,4.25,35.84,102.77,83.41,Pump Station Alpha,normal
+S001,2024-01-01 16:00:00,4.7,40.0,123.49,82.91,Pump Station Alpha,normal
+S001,2024-01-01 16:30:00,4.69,37.75,102.89,86.27,Pump Station Alpha,normal
+S001,2024-01-01 17:00:00,4.14,40.32,109.47,84.02,Pump Station Alpha,warning
+S001,2024-01-01 17:30:00,4.5,38.28,132.66,87.86,Pump Station Alpha,normal
+S001,2024-01-01 18:00:00,4.41,39.74,127.27,82.55,Pump Station Alpha,normal
+S001,2024-01-01 18:30:00,4.95,35.79,113.03,85.19,Pump Station Alpha,warning
+S001,2024-01-01 19:00:00,4.19,40.64,114.83,86.06,Pump Station Alpha,normal
+S001,2024-01-01 19:30:00,4.67,39.19,122.51,83.32,Pump Station Alpha,normal
+S001,2024-01-01 20:00:00,4.32,39.3,137.65,87.41,Pump Station Alpha,normal
+S001,2024-01-01 20:30:00,4.58,39.73,108.65,82.38,Pump Station Alpha,normal
+S001,2024-01-01 21:00:00,4.99,37.42,126.1,82.4,Pump Station Alpha,warning
+S001,2024-01-01 21:30:00,4.07,37.21,113.92,80.99,Pump Station Alpha,warning
+S001,2024-01-01 22:00:00,4.54,40.66,104.3,88.17,Pump Station Alpha,normal
+S001,2024-01-01 22:30:00,4.96,40.36,121.47,82.5,Pump Station Alpha,warning
+S001,2024-01-01 23:00:00,3.97,38.05,113.78,84.18,Pump Station Alpha,warning
+S001,2024-01-01 23:30:00,4.5,39.39,126.5,85.49,Pump Station Alpha,normal
+S001,2024-01-02 00:00:00,4.28,37.38,114.61,82.2,Pump Station Alpha,normal
+S001,2024-01-02 00:30:00,4.59,39.65,135.68,81.6,Pump Station Alpha,normal
+S001,2024-01-02 01:00:00,4.45,39.95,122.07,87.85,Pump Station Alpha,normal
+S001,2024-01-02 01:30:00,4.54,38.07,103.41,84.5,Pump Station Alpha,normal
+S001,2024-01-02 02:00:00,4.17,38.43,123.59,84.99,Pump Station Alpha,normal
+S001,2024-01-02 02:30:00,4.03,38.34,108.67,81.0,Pump Station Alpha,warning
+S001,2024-01-02 03:00:00,4.03,35.62,129.11,87.3,Pump Station Alpha,warning
+S001,2024-01-02 03:30:00,4.87,38.79,105.7,81.39,Pump Station Alpha,warning
+S001,2024-01-02 04:00:00,4.04,36.78,134.48,87.09,Pump Station Alpha,warning
+S001,2024-01-02 04:30:00,4.91,40.59,115.03,87.97,Pump Station Alpha,warning
+S001,2024-01-02 05:00:00,4.29,39.37,120.68,81.22,Pump Station Alpha,normal
+S001,2024-01-02 05:30:00,4.97,40.99,110.55,88.2,Pump Station Alpha,warning
+S001,2024-01-02 06:00:00,4.6,37.85,126.92,86.25,Pump Station Alpha,normal
+S001,2024-01-02 06:30:00,4.73,37.14,132.26,83.67,Pump Station Alpha,normal
+S001,2024-01-02 07:00:00,4.14,36.79,109.27,88.3,Pump Station Alpha,warning
+S001,2024-01-02 07:30:00,4.75,39.92,110.82,82.35,Pump Station Alpha,normal
+S001,2024-01-02 08:00:00,4.5,39.36,113.12,85.57,Pump Station Alpha,normal
+S001,2024-01-02 08:30:00,4.84,35.11,114.86,83.14,Pump Station Alpha,normal
+S001,2024-01-02 09:00:00,4.55,39.77,129.81,81.02,Pump Station Alpha,normal
+S001,2024-01-02 09:30:00,4.36,38.08,104.06,85.58,Pump Station Alpha,normal
+S001,2024-01-02 10:00:00,4.22,35.54,116.73,88.52,Pump Station Alpha,normal
+S001,2024-01-02 10:30:00,4.99,39.68,137.19,83.9,Pump Station Alpha,warning
+S001,2024-01-02 11:00:00,4.34,39.87,116.71,81.09,Pump Station Alpha,normal
+S001,2024-01-02 11:30:00,3.97,37.67,121.2,83.77,Pump Station Alpha,warning
+S001,2024-01-02 12:00:00,4.83,36.14,113.62,82.83,Pump Station Alpha,normal
+S001,2024-01-02 12:30:00,4.38,40.57,117.52,81.86,Pump Station Alpha,normal
+S001,2024-01-02 13:00:00,4.05,37.45,106.47,83.54,Pump Station Alpha,warning
+S001,2024-01-02 13:30:00,4.37,35.68,127.4,86.61,Pump Station Alpha,normal
+S001,2024-01-02 14:00:00,4.17,39.34,125.19,88.13,Pump Station Alpha,normal
+S001,2024-01-02 14:30:00,4.74,39.5,108.11,86.09,Pump Station Alpha,normal
+S001,2024-01-02 15:00:00,4.46,36.38,102.57,85.89,Pump Station Alpha,normal
+S001,2024-01-02 15:30:00,4.76,39.2,106.68,81.14,Pump Station Alpha,normal
+S001,2024-01-02 16:00:00,4.32,40.06,114.25,83.64,Pump Station Alpha,normal
+S001,2024-01-02 16:30:00,4.41,35.49,126.35,87.46,Pump Station Alpha,normal
+S001,2024-01-02 17:00:00,4.55,39.09,132.85,83.49,Pump Station Alpha,normal
+S001,2024-01-02 17:30:00,4.48,41.03,114.06,82.43,Pump Station Alpha,normal
+S001,2024-01-02 18:00:00,4.86,39.41,106.62,86.46,Pump Station Alpha,normal
+S001,2024-01-02 18:30:00,4.88,36.01,135.27,82.65,Pump Station Alpha,warning
+S001,2024-01-02 19:00:00,4.31,36.52,118.3,85.24,Pump Station Alpha,normal
+S001,2024-01-02 19:30:00,4.89,40.12,124.02,88.16,Pump Station Alpha,warning
+S001,2024-01-02 20:00:00,4.3,39.66,133.86,83.23,Pump Station Alpha,normal
+S001,2024-01-02 20:30:00,5.03,40.87,106.45,86.96,Pump Station Alpha,warning
+S001,2024-01-02 21:00:00,4.45,39.72,106.36,86.78,Pump Station Alpha,normal
+S001,2024-01-02 21:30:00,4.93,39.48,110.1,88.86,Pump Station Alpha,warning
+S001,2024-01-02 22:00:00,4.24,38.15,120.66,80.91,Pump Station Alpha,normal
+S001,2024-01-02 22:30:00,4.35,39.78,135.6,83.31,Pump Station Alpha,normal
+S001,2024-01-02 23:00:00,4.05,40.58,125.84,88.16,Pump Station Alpha,warning
+S001,2024-01-02 23:30:00,4.75,39.89,125.41,81.61,Pump Station Alpha,normal
+S001,2024-01-03 00:00:00,4.56,40.47,106.2,84.51,Pump Station Alpha,normal
+S001,2024-01-03 00:30:00,4.13,36.89,119.8,84.77,Pump Station Alpha,warning
+S001,2024-01-03 01:00:00,4.45,38.36,124.03,82.15,Pump Station Alpha,normal
+S001,2024-01-03 01:30:00,4.55,36.19,115.37,85.39,Pump Station Alpha,normal
+S001,2024-01-03 02:00:00,4.31,35.22,107.86,83.14,Pump Station Alpha,normal
+S001,2024-01-03 02:30:00,4.94,38.61,102.75,86.39,Pump Station Alpha,warning
+S001,2024-01-03 03:00:00,4.29,39.65,127.02,83.39,Pump Station Alpha,normal
+S001,2024-01-03 03:30:00,4.98,37.13,113.96,86.42,Pump Station Alpha,warning
+S001,2024-01-03 04:00:00,4.49,38.54,108.91,85.93,Pump Station Alpha,normal
+S001,2024-01-03 04:30:00,3.99,38.78,135.44,85.68,Pump Station Alpha,warning
+S001,2024-01-03 05:00:00,5.02,36.05,114.53,86.59,Pump Station Alpha,warning
+S001,2024-01-03 05:30:00,5.01,38.45,134.98,88.68,Pump Station Alpha,warning
+S001,2024-01-03 06:00:00,4.72,35.57,114.98,83.95,Pump Station Alpha,normal
+S001,2024-01-03 06:30:00,4.04,38.7,108.3,84.95,Pump Station Alpha,warning
+S001,2024-01-03 07:00:00,4.44,38.56,136.08,87.32,Pump Station Alpha,normal
+S001,2024-01-03 07:30:00,4.15,37.13,128.75,88.48,Pump Station Alpha,normal
+S001,2024-01-03 08:00:00,4.58,37.23,131.26,83.27,Pump Station Alpha,normal
+S001,2024-01-03 08:30:00,4.18,35.46,104.36,87.92,Pump Station Alpha,normal
+S001,2024-01-03 09:00:00,4.95,41.0,114.49,88.5,Pump Station Alpha,warning
+S001,2024-01-03 09:30:00,4.3,37.18,123.37,86.06,Pump Station Alpha,normal
+S001,2024-01-03 10:00:00,4.01,39.79,109.87,85.1,Pump Station Alpha,warning
+S001,2024-01-03 10:30:00,4.08,35.78,128.57,88.49,Pump Station Alpha,warning
+S001,2024-01-03 11:00:00,4.54,35.04,116.05,85.11,Pump Station Alpha,normal
+S001,2024-01-03 11:30:00,4.11,38.92,135.83,88.46,Pump Station Alpha,warning
+S001,2024-01-03 12:00:00,4.93,37.95,105.26,81.87,Pump Station Alpha,warning
+S001,2024-01-03 12:30:00,4.29,40.09,115.53,87.94,Pump Station Alpha,normal
+S001,2024-01-03 13:00:00,4.73,39.5,129.87,88.07,Pump Station Alpha,normal
+S001,2024-01-03 13:30:00,4.56,38.91,134.0,86.12,Pump Station Alpha,normal
+S001,2024-01-03 14:00:00,4.84,40.17,106.8,88.02,Pump Station Alpha,normal
+S001,2024-01-03 14:30:00,4.65,39.35,123.96,84.25,Pump Station Alpha,normal
+S001,2024-01-03 15:00:00,4.29,35.77,108.19,85.62,Pump Station Alpha,normal
+S001,2024-01-03 15:30:00,4.88,39.58,108.65,83.8,Pump Station Alpha,warning
+S001,2024-01-03 16:00:00,5.03,40.18,134.64,86.89,Pump Station Alpha,warning
+S001,2024-01-03 16:30:00,4.54,35.08,122.89,81.17,Pump Station Alpha,normal
+S001,2024-01-03 17:00:00,4.3,36.37,106.2,81.01,Pump Station Alpha,normal
+S001,2024-01-03 17:30:00,4.25,39.48,104.66,85.03,Pump Station Alpha,normal
+S001,2024-01-03 18:00:00,4.52,35.17,137.33,87.38,Pump Station Alpha,normal
+S001,2024-01-03 18:30:00,4.28,39.72,104.48,85.17,Pump Station Alpha,normal
+S001,2024-01-03 19:00:00,4.65,40.89,115.48,82.22,Pump Station Alpha,normal
+S001,2024-01-03 19:30:00,4.3,38.12,113.94,87.39,Pump Station Alpha,normal
+S001,2024-01-03 20:00:00,4.77,38.23,126.09,87.96,Pump Station Alpha,normal
+S001,2024-01-03 20:30:00,4.79,36.04,111.15,82.17,Pump Station Alpha,normal
+S001,2024-01-03 21:00:00,5.0,36.01,118.67,82.33,Pump Station Alpha,warning
+S001,2024-01-03 21:30:00,4.62,36.56,121.38,83.63,Pump Station Alpha,normal
+S001,2024-01-03 22:00:00,4.63,39.51,106.15,81.77,Pump Station Alpha,normal
+S001,2024-01-03 22:30:00,4.45,35.98,106.96,84.04,Pump Station Alpha,normal
+S001,2024-01-03 23:00:00,4.5,39.87,118.97,82.06,Pump Station Alpha,normal
+S001,2024-01-03 23:30:00,4.74,38.45,122.48,85.62,Pump Station Alpha,normal
+S001,2024-01-04 00:00:00,4.06,37.66,131.15,80.89,Pump Station Alpha,warning
+S001,2024-01-04 00:30:00,4.69,39.97,121.85,86.5,Pump Station Alpha,normal
+S001,2024-01-04 01:00:00,4.01,36.14,115.63,80.87,Pump Station Alpha,warning
+S001,2024-01-04 01:30:00,4.14,36.63,117.54,81.29,Pump Station Alpha,warning
+S001,2024-01-04 02:00:00,4.7,38.63,119.8,84.25,Pump Station Alpha,normal
+S001,2024-01-04 02:30:00,5.01,39.08,103.19,88.28,Pump Station Alpha,warning
+S001,2024-01-04 03:00:00,4.03,36.82,113.4,81.08,Pump Station Alpha,warning
+S001,2024-01-04 03:30:00,4.0,39.49,105.94,87.88,Pump Station Alpha,warning
+S001,2024-01-04 04:00:00,4.21,36.56,108.63,82.2,Pump Station Alpha,normal
+S001,2024-01-04 04:30:00,4.11,40.43,123.54,86.03,Pump Station Alpha,warning
+S001,2024-01-04 05:00:00,4.74,38.44,106.73,85.41,Pump Station Alpha,normal
+S001,2024-01-04 05:30:00,4.71,39.46,124.41,88.64,Pump Station Alpha,normal
+S001,2024-01-04 06:00:00,4.41,38.96,119.07,89.07,Pump Station Alpha,normal
+S001,2024-01-04 06:30:00,4.14,35.24,134.49,88.36,Pump Station Alpha,warning
+S001,2024-01-04 07:00:00,4.46,37.91,115.92,85.17,Pump Station Alpha,normal
+S001,2024-01-04 07:30:00,4.08,35.54,121.97,80.81,Pump Station Alpha,warning
+S001,2024-01-04 08:00:00,4.76,37.9,131.47,84.23,Pump Station Alpha,normal
+S001,2024-01-04 08:30:00,4.34,35.93,116.02,86.66,Pump Station Alpha,normal
+S001,2024-01-04 09:00:00,4.96,38.01,136.97,80.99,Pump Station Alpha,warning
+S001,2024-01-04 09:30:00,4.56,35.75,128.57,83.18,Pump Station Alpha,normal
+S001,2024-01-04 10:00:00,4.64,37.24,107.51,85.11,Pump Station Alpha,normal
+S001,2024-01-04 10:30:00,4.9,36.23,115.69,86.74,Pump Station Alpha,warning
+S001,2024-01-04 11:00:00,4.09,38.34,113.4,83.7,Pump Station Alpha,warning
+S001,2024-01-04 11:30:00,4.75,40.85,132.81,86.8,Pump Station Alpha,normal
+S001,2024-01-04 12:00:00,4.23,41.01,129.09,84.17,Pump Station Alpha,normal
+S001,2024-01-04 12:30:00,4.27,38.26,113.58,84.48,Pump Station Alpha,normal
+S001,2024-01-04 13:00:00,4.32,35.22,126.83,84.43,Pump Station Alpha,normal
+S001,2024-01-04 13:30:00,4.9,39.28,120.34,87.45,Pump Station Alpha,warning
+S001,2024-01-04 14:00:00,4.26,38.94,116.48,81.0,Pump Station Alpha,normal
+S001,2024-01-04 14:30:00,4.44,36.55,104.3,82.06,Pump Station Alpha,normal
+S001,2024-01-04 15:00:00,4.71,36.34,137.18,87.1,Pump Station Alpha,normal
+S001,2024-01-04 15:30:00,4.19,38.22,133.89,89.18,Pump Station Alpha,normal
+S001,2024-01-04 16:00:00,4.78,38.22,108.06,84.46,Pump Station Alpha,normal
+S001,2024-01-04 16:30:00,4.25,38.34,132.88,84.79,Pump Station Alpha,normal
+S001,2024-01-04 17:00:00,4.49,38.52,106.41,83.04,Pump Station Alpha,normal
+S001,2024-01-04 17:30:00,4.64,37.84,126.39,81.93,Pump Station Alpha,normal
+S001,2024-01-04 18:00:00,4.34,39.62,110.51,85.25,Pump Station Alpha,normal
+S001,2024-01-04 18:30:00,4.6,38.37,106.18,88.93,Pump Station Alpha,normal
+S001,2024-01-04 19:00:00,5.02,36.38,108.76,89.05,Pump Station Alpha,warning
+S001,2024-01-04 19:30:00,4.25,36.57,112.26,86.03,Pump Station Alpha,normal
+S001,2024-01-04 20:00:00,4.82,37.47,124.13,87.67,Pump Station Alpha,normal
+S001,2024-01-04 20:30:00,4.5,37.54,124.97,80.87,Pump Station Alpha,normal
+S001,2024-01-04 21:00:00,4.52,39.79,113.46,83.96,Pump Station Alpha,normal
+S001,2024-01-04 21:30:00,4.29,38.35,113.14,85.57,Pump Station Alpha,normal
+S001,2024-01-04 22:00:00,4.37,35.62,135.73,83.48,Pump Station Alpha,normal
+S001,2024-01-04 22:30:00,4.43,35.14,121.89,83.56,Pump Station Alpha,normal
+S001,2024-01-04 23:00:00,4.18,39.38,104.22,83.95,Pump Station Alpha,normal
+S001,2024-01-04 23:30:00,4.49,39.79,134.86,85.14,Pump Station Alpha,normal
+S001,2024-01-05 00:00:00,4.84,36.09,137.33,87.0,Pump Station Alpha,normal
+S001,2024-01-05 00:30:00,4.9,40.62,111.9,83.9,Pump Station Alpha,warning
+S001,2024-01-05 01:00:00,4.76,34.99,137.93,85.69,Pump Station Alpha,normal
+S001,2024-01-05 01:30:00,4.08,38.41,123.68,82.93,Pump Station Alpha,warning
+S001,2024-01-05 02:00:00,4.09,39.36,133.31,89.03,Pump Station Alpha,warning
+S001,2024-01-05 02:30:00,4.9,37.52,121.87,84.42,Pump Station Alpha,warning
+S001,2024-01-05 03:00:00,4.07,40.75,136.66,87.81,Pump Station Alpha,warning
+S001,2024-01-05 03:30:00,4.98,37.54,119.92,81.47,Pump Station Alpha,warning
+S002,2024-01-01 00:00:00,5.11,39.01,99.45,69.63,Pump Station Beta,normal
+S002,2024-01-01 00:30:00,5.49,42.62,83.08,71.08,Pump Station Beta,normal
+S002,2024-01-01 01:00:00,5.51,41.79,81.54,74.49,Pump Station Beta,normal
+S002,2024-01-01 01:30:00,5.56,44.06,94.39,74.4,Pump Station Beta,normal
+S002,2024-01-01 02:00:00,5.78,41.37,99.68,69.65,Pump Station Beta,warning
+S002,2024-01-01 02:30:00,5.36,39.47,98.52,71.51,Pump Station Beta,normal
+S002,2024-01-01 03:00:00,4.88,44.46,102.42,71.35,Pump Station Beta,normal
+S002,2024-01-01 03:30:00,4.99,40.95,106.75,71.12,Pump Station Beta,normal
+S002,2024-01-01 04:00:00,4.58,42.48,83.49,68.46,Pump Station Beta,warning
+S002,2024-01-01 04:30:00,5.0,40.65,101.6,72.6,Pump Station Beta,normal
+S002,2024-01-01 05:00:00,4.7,44.87,90.41,75.57,Pump Station Beta,warning
+S002,2024-01-01 05:30:00,4.91,44.94,98.71,75.31,Pump Station Beta,normal
+S002,2024-01-01 06:00:00,5.79,41.08,96.75,70.08,Pump Station Beta,warning
+S002,2024-01-01 06:30:00,5.4,44.01,96.02,70.19,Pump Station Beta,normal
+S002,2024-01-01 07:00:00,5.02,42.22,97.12,69.17,Pump Station Beta,normal
+S002,2024-01-01 07:30:00,5.05,41.55,102.41,70.59,Pump Station Beta,normal
+S002,2024-01-01 08:00:00,5.66,44.07,106.54,72.92,Pump Station Beta,warning
+S002,2024-01-01 08:30:00,5.43,44.11,99.57,74.99,Pump Station Beta,normal
+S002,2024-01-01 09:00:00,4.75,43.58,89.35,69.17,Pump Station Beta,warning
+S002,2024-01-01 09:30:00,5.05,41.42,108.35,69.77,Pump Station Beta,normal
+S002,2024-01-01 10:00:00,5.43,43.86,94.97,73.65,Pump Station Beta,normal
+S002,2024-01-01 10:30:00,4.92,41.06,106.22,68.89,Pump Station Beta,normal
+S002,2024-01-01 11:00:00,4.94,44.23,108.31,74.83,Pump Station Beta,normal
+S002,2024-01-01 11:30:00,5.18,44.44,103.43,71.68,Pump Station Beta,normal
+S002,2024-01-01 12:00:00,5.23,41.8,99.05,73.24,Pump Station Beta,normal
+S002,2024-01-01 12:30:00,4.86,44.64,107.27,71.48,Pump Station Beta,normal
+S002,2024-01-01 13:00:00,5.17,42.84,94.49,71.68,Pump Station Beta,normal
+S002,2024-01-01 13:30:00,4.78,39.38,96.02,73.41,Pump Station Beta,warning
+S002,2024-01-01 14:00:00,5.75,39.92,103.63,72.65,Pump Station Beta,warning
+S002,2024-01-01 14:30:00,4.82,42.33,93.48,74.66,Pump Station Beta,normal
+S002,2024-01-01 15:00:00,5.24,39.59,98.4,74.55,Pump Station Beta,normal
+S002,2024-01-01 15:30:00,5.46,44.81,91.9,72.97,Pump Station Beta,normal
+S002,2024-01-01 16:00:00,5.5,44.78,89.86,69.84,Pump Station Beta,normal
+S002,2024-01-01 16:30:00,5.36,42.85,100.24,73.67,Pump Station Beta,normal
+S002,2024-01-01 17:00:00,5.6,44.44,89.61,70.68,Pump Station Beta,normal
+S002,2024-01-01 17:30:00,5.72,45.2,102.49,73.37,Pump Station Beta,warning
+S002,2024-01-01 18:00:00,4.81,42.05,108.5,69.53,Pump Station Beta,normal
+S002,2024-01-01 18:30:00,5.7,38.81,89.73,68.44,Pump Station Beta,warning
+S002,2024-01-01 19:00:00,5.18,41.5,88.29,70.3,Pump Station Beta,normal
+S002,2024-01-01 19:30:00,4.99,40.51,93.55,73.74,Pump Station Beta,normal
+S002,2024-01-01 20:00:00,5.57,42.37,104.12,75.11,Pump Station Beta,normal
+S002,2024-01-01 20:30:00,4.98,43.71,91.06,68.75,Pump Station Beta,normal
+S002,2024-01-01 21:00:00,5.79,43.25,87.34,72.36,Pump Station Beta,warning
+S002,2024-01-01 21:30:00,5.12,40.81,96.52,75.38,Pump Station Beta,normal
+S002,2024-01-01 22:00:00,4.7,38.78,108.52,69.64,Pump Station Beta,warning
+S002,2024-01-01 22:30:00,5.25,45.14,87.12,69.91,Pump Station Beta,normal
+S002,2024-01-01 23:00:00,5.28,40.64,92.75,74.1,Pump Station Beta,normal
+S002,2024-01-01 23:30:00,5.11,41.74,87.52,75.11,Pump Station Beta,normal
+S002,2024-01-02 00:00:00,5.01,44.57,99.01,72.63,Pump Station Beta,normal
+S002,2024-01-02 00:30:00,4.8,40.73,99.47,73.64,Pump Station Beta,normal
+S002,2024-01-02 01:00:00,5.35,40.32,83.31,68.71,Pump Station Beta,normal
+S002,2024-01-02 01:30:00,5.26,42.59,94.1,72.57,Pump Station Beta,normal
+S002,2024-01-02 02:00:00,5.3,41.49,92.26,69.82,Pump Station Beta,normal
+S002,2024-01-02 02:30:00,5.37,43.02,85.89,70.78,Pump Station Beta,normal
+S002,2024-01-02 03:00:00,5.68,41.47,93.51,73.54,Pump Station Beta,warning
+S002,2024-01-02 03:30:00,5.65,44.64,105.31,71.98,Pump Station Beta,warning
+S002,2024-01-02 04:00:00,4.72,40.18,85.86,73.59,Pump Station Beta,warning
+S002,2024-01-02 04:30:00,4.73,39.95,92.2,73.95,Pump Station Beta,warning
+S002,2024-01-02 05:00:00,4.68,40.64,86.63,75.39,Pump Station Beta,warning
+S002,2024-01-02 05:30:00,5.52,39.62,88.91,73.86,Pump Station Beta,normal
+S002,2024-01-02 06:00:00,5.49,45.23,109.2,68.51,Pump Station Beta,normal
+S002,2024-01-02 06:30:00,4.64,43.9,82.23,70.62,Pump Station Beta,warning
+S002,2024-01-02 07:00:00,4.66,45.06,85.21,71.1,Pump Station Beta,warning
+S002,2024-01-02 07:30:00,5.62,40.32,90.33,69.11,Pump Station Beta,warning
+S002,2024-01-02 08:00:00,5.46,43.22,104.17,74.75,Pump Station Beta,normal
+S002,2024-01-02 08:30:00,4.86,39.38,94.73,71.8,Pump Station Beta,normal
+S002,2024-01-02 09:00:00,5.18,38.84,82.69,69.69,Pump Station Beta,normal
+S002,2024-01-02 09:30:00,5.23,43.28,88.44,72.41,Pump Station Beta,normal
+S002,2024-01-02 10:00:00,5.31,42.4,106.51,68.45,Pump Station Beta,normal
+S002,2024-01-02 10:30:00,5.28,44.69,80.88,70.22,Pump Station Beta,normal
+S002,2024-01-02 11:00:00,4.71,41.36,102.82,74.97,Pump Station Beta,warning
+S002,2024-01-02 11:30:00,5.2,45.24,104.12,69.18,Pump Station Beta,normal
+S002,2024-01-02 12:00:00,5.08,43.37,107.22,75.05,Pump Station Beta,normal
+S002,2024-01-02 12:30:00,4.91,43.49,107.42,70.57,Pump Station Beta,normal
+S002,2024-01-02 13:00:00,5.24,41.91,99.14,70.87,Pump Station Beta,normal
+S002,2024-01-02 13:30:00,5.18,44.27,93.69,69.37,Pump Station Beta,normal
+S002,2024-01-02 14:00:00,4.98,38.88,105.28,75.45,Pump Station Beta,normal
+S002,2024-01-02 14:30:00,5.06,45.19,91.55,75.47,Pump Station Beta,normal
+S002,2024-01-02 15:00:00,4.76,43.95,105.32,74.7,Pump Station Beta,warning
+S002,2024-01-02 15:30:00,5.16,44.26,92.05,74.09,Pump Station Beta,normal
+S002,2024-01-02 16:00:00,5.6,38.95,105.24,71.29,Pump Station Beta,normal
+S002,2024-01-02 16:30:00,5.51,44.28,84.01,69.29,Pump Station Beta,normal
+S002,2024-01-02 17:00:00,4.58,39.06,94.52,74.91,Pump Station Beta,warning
+S002,2024-01-02 17:30:00,5.26,41.93,83.13,71.7,Pump Station Beta,normal
+S002,2024-01-02 18:00:00,4.62,42.4,82.88,70.27,Pump Station Beta,warning
+S002,2024-01-02 18:30:00,5.81,43.02,92.32,70.14,Pump Station Beta,warning
+S002,2024-01-02 19:00:00,5.81,44.42,97.79,71.67,Pump Station Beta,warning
+S002,2024-01-02 19:30:00,5.14,42.2,90.7,72.59,Pump Station Beta,normal
+S002,2024-01-02 20:00:00,5.79,39.87,87.3,74.3,Pump Station Beta,warning
+S002,2024-01-02 20:30:00,5.72,44.79,98.23,75.22,Pump Station Beta,warning
+S002,2024-01-02 21:00:00,5.8,38.88,104.45,72.8,Pump Station Beta,warning
+S002,2024-01-02 21:30:00,4.6,44.43,84.31,74.4,Pump Station Beta,warning
+S002,2024-01-02 22:00:00,4.87,40.33,106.48,71.63,Pump Station Beta,normal
+S002,2024-01-02 22:30:00,4.94,40.63,80.91,73.81,Pump Station Beta,normal
+S002,2024-01-02 23:00:00,5.67,42.78,99.82,71.86,Pump Station Beta,warning
+S002,2024-01-02 23:30:00,5.56,43.13,95.87,69.02,Pump Station Beta,normal
+S002,2024-01-03 00:00:00,5.79,43.63,96.59,68.74,Pump Station Beta,warning
+S002,2024-01-03 00:30:00,5.2,44.82,103.15,71.13,Pump Station Beta,normal
+S002,2024-01-03 01:00:00,5.55,41.32,92.79,72.65,Pump Station Beta,normal
+S002,2024-01-03 01:30:00,5.06,39.79,96.06,68.66,Pump Station Beta,normal
+S002,2024-01-03 02:00:00,4.94,44.84,109.23,69.94,Pump Station Beta,normal
+S002,2024-01-03 02:30:00,4.64,40.33,106.2,74.73,Pump Station Beta,warning
+S002,2024-01-03 03:00:00,5.21,40.89,102.36,71.19,Pump Station Beta,normal
+S002,2024-01-03 03:30:00,5.72,39.95,106.93,69.91,Pump Station Beta,warning
+S002,2024-01-03 04:00:00,5.69,39.22,105.85,69.38,Pump Station Beta,warning
+S002,2024-01-03 04:30:00,4.96,45.03,89.79,74.16,Pump Station Beta,normal
+S002,2024-01-03 05:00:00,5.41,42.99,82.46,69.39,Pump Station Beta,normal
+S002,2024-01-03 05:30:00,5.2,39.65,94.66,74.06,Pump Station Beta,normal
+S002,2024-01-03 06:00:00,5.24,39.41,88.95,69.6,Pump Station Beta,normal
+S002,2024-01-03 06:30:00,5.68,44.86,81.71,73.14,Pump Station Beta,warning
+S002,2024-01-03 07:00:00,5.72,42.7,89.57,74.08,Pump Station Beta,warning
+S002,2024-01-03 07:30:00,5.33,42.91,93.69,68.88,Pump Station Beta,normal
+S002,2024-01-03 08:00:00,5.71,44.98,108.66,75.42,Pump Station Beta,warning
+S002,2024-01-03 08:30:00,5.08,40.71,97.03,73.5,Pump Station Beta,normal
+S002,2024-01-03 09:00:00,5.79,40.05,83.72,69.2,Pump Station Beta,warning
+S002,2024-01-03 09:30:00,5.65,40.56,87.6,71.44,Pump Station Beta,warning
+S002,2024-01-03 10:00:00,5.28,40.19,102.52,69.14,Pump Station Beta,normal
+S002,2024-01-03 10:30:00,5.75,40.9,108.97,69.84,Pump Station Beta,warning
+S002,2024-01-03 11:00:00,5.18,40.34,81.56,74.33,Pump Station Beta,normal
+S002,2024-01-03 11:30:00,4.66,41.84,90.84,71.78,Pump Station Beta,warning
+S002,2024-01-03 12:00:00,4.78,42.7,81.16,71.68,Pump Station Beta,warning
+S002,2024-01-03 12:30:00,5.61,39.17,83.9,73.74,Pump Station Beta,normal
+S002,2024-01-03 13:00:00,5.79,39.81,103.34,68.48,Pump Station Beta,warning
+S002,2024-01-03 13:30:00,5.31,42.6,106.77,74.86,Pump Station Beta,normal
+S002,2024-01-03 14:00:00,5.06,44.69,82.83,68.63,Pump Station Beta,normal
+S002,2024-01-03 14:30:00,4.7,40.14,85.78,74.38,Pump Station Beta,warning
+S002,2024-01-03 15:00:00,5.22,39.26,105.77,71.79,Pump Station Beta,normal
+S002,2024-01-03 15:30:00,5.26,41.53,96.61,70.42,Pump Station Beta,normal
+S002,2024-01-03 16:00:00,4.77,40.17,86.74,73.83,Pump Station Beta,warning
+S002,2024-01-03 16:30:00,4.69,45.04,84.69,70.4,Pump Station Beta,warning
+S002,2024-01-03 17:00:00,5.23,42.05,84.46,70.79,Pump Station Beta,normal
+S002,2024-01-03 17:30:00,4.88,45.0,96.58,69.61,Pump Station Beta,normal
+S002,2024-01-03 18:00:00,4.74,42.17,102.96,75.36,Pump Station Beta,warning
+S002,2024-01-03 18:30:00,4.66,39.51,94.3,72.69,Pump Station Beta,warning
+S002,2024-01-03 19:00:00,5.37,40.31,81.14,73.13,Pump Station Beta,normal
+S002,2024-01-03 19:30:00,4.76,41.67,94.7,72.01,Pump Station Beta,warning
+S002,2024-01-03 20:00:00,5.67,40.32,87.23,75.42,Pump Station Beta,warning
+S002,2024-01-03 20:30:00,5.05,40.28,89.89,72.22,Pump Station Beta,normal
+S002,2024-01-03 21:00:00,5.47,42.34,99.6,70.51,Pump Station Beta,normal
+S002,2024-01-03 21:30:00,5.25,41.34,87.03,74.15,Pump Station Beta,normal
+S002,2024-01-03 22:00:00,5.49,40.73,106.96,69.97,Pump Station Beta,normal
+S002,2024-01-03 22:30:00,5.15,39.7,92.26,74.47,Pump Station Beta,normal
+S002,2024-01-03 23:00:00,5.78,39.34,98.18,69.64,Pump Station Beta,warning
+S002,2024-01-03 23:30:00,5.05,43.12,104.16,69.56,Pump Station Beta,normal
+S002,2024-01-04 00:00:00,4.74,44.51,96.85,70.38,Pump Station Beta,warning
+S002,2024-01-04 00:30:00,5.36,42.23,93.43,74.29,Pump Station Beta,normal
+S002,2024-01-04 01:00:00,5.71,38.73,82.3,70.92,Pump Station Beta,warning
+S002,2024-01-04 01:30:00,5.58,42.06,88.16,70.35,Pump Station Beta,normal
+S002,2024-01-04 02:00:00,5.82,40.02,90.39,69.8,Pump Station Beta,warning
+S002,2024-01-04 02:30:00,5.59,42.3,91.88,72.87,Pump Station Beta,normal
+S002,2024-01-04 03:00:00,5.59,41.59,101.23,71.27,Pump Station Beta,normal
+S002,2024-01-04 03:30:00,5.63,39.64,91.19,74.68,Pump Station Beta,warning
+S002,2024-01-04 04:00:00,5.69,44.2,83.85,72.47,Pump Station Beta,warning
+S002,2024-01-04 04:30:00,5.5,42.28,90.01,74.26,Pump Station Beta,normal
+S002,2024-01-04 05:00:00,4.69,43.15,102.73,75.21,Pump Station Beta,warning
+S002,2024-01-04 05:30:00,4.99,44.05,97.59,69.63,Pump Station Beta,normal
+S002,2024-01-04 06:00:00,4.77,44.41,99.39,69.64,Pump Station Beta,warning
+S002,2024-01-04 06:30:00,5.08,39.62,86.52,74.4,Pump Station Beta,normal
+S002,2024-01-04 07:00:00,5.41,40.65,85.58,75.53,Pump Station Beta,normal
+S002,2024-01-04 07:30:00,5.15,39.06,88.21,72.45,Pump Station Beta,normal
+S002,2024-01-04 08:00:00,4.91,43.08,102.49,70.65,Pump Station Beta,normal
+S002,2024-01-04 08:30:00,5.81,42.17,107.71,69.54,Pump Station Beta,warning
+S002,2024-01-04 09:00:00,4.91,39.83,103.7,70.89,Pump Station Beta,normal
+S002,2024-01-04 09:30:00,5.04,43.76,96.89,75.36,Pump Station Beta,normal
+S002,2024-01-04 10:00:00,5.55,42.0,91.24,70.13,Pump Station Beta,normal
+S002,2024-01-04 10:30:00,5.58,38.86,89.29,70.09,Pump Station Beta,normal
+S002,2024-01-04 11:00:00,5.04,41.33,104.89,73.81,Pump Station Beta,normal
+S002,2024-01-04 11:30:00,4.95,44.49,88.96,74.33,Pump Station Beta,normal
+S002,2024-01-04 12:00:00,5.49,44.64,87.92,75.47,Pump Station Beta,normal
+S002,2024-01-04 12:30:00,4.95,41.57,106.94,68.57,Pump Station Beta,normal
+S002,2024-01-04 13:00:00,4.85,40.8,108.29,69.61,Pump Station Beta,normal
+S002,2024-01-04 13:30:00,4.68,45.35,99.87,70.49,Pump Station Beta,warning
+S002,2024-01-04 14:00:00,5.82,41.19,109.09,69.35,Pump Station Beta,warning
+S002,2024-01-04 14:30:00,4.63,39.5,99.63,72.77,Pump Station Beta,warning
+S002,2024-01-04 15:00:00,5.54,40.83,101.77,70.66,Pump Station Beta,normal
+S002,2024-01-04 15:30:00,5.36,38.95,107.96,75.5,Pump Station Beta,normal
+S002,2024-01-04 16:00:00,5.36,43.86,90.12,71.12,Pump Station Beta,normal
+S002,2024-01-04 16:30:00,5.05,39.43,109.09,73.51,Pump Station Beta,normal
+S002,2024-01-04 17:00:00,5.01,40.88,95.25,73.28,Pump Station Beta,normal
+S002,2024-01-04 17:30:00,5.43,43.95,104.59,75.27,Pump Station Beta,normal
+S002,2024-01-04 18:00:00,4.79,44.24,83.52,72.3,Pump Station Beta,normal
+S002,2024-01-04 18:30:00,4.75,42.55,105.96,73.0,Pump Station Beta,warning
+S002,2024-01-04 19:00:00,5.05,43.79,83.45,70.67,Pump Station Beta,normal
+S002,2024-01-04 19:30:00,4.89,41.95,87.53,70.02,Pump Station Beta,normal
+S002,2024-01-04 20:00:00,5.78,43.54,82.83,74.85,Pump Station Beta,warning
+S002,2024-01-04 20:30:00,5.17,41.01,100.18,72.98,Pump Station Beta,normal
+S002,2024-01-04 21:00:00,4.99,39.21,108.06,69.39,Pump Station Beta,normal
+S002,2024-01-04 21:30:00,5.38,41.97,85.89,73.62,Pump Station Beta,normal
+S002,2024-01-04 22:00:00,4.81,44.94,97.89,71.43,Pump Station Beta,normal
+S002,2024-01-04 22:30:00,5.5,40.39,93.39,74.02,Pump Station Beta,normal
+S002,2024-01-04 23:00:00,4.82,39.33,92.97,68.67,Pump Station Beta,normal
+S002,2024-01-04 23:30:00,5.79,42.17,104.03,74.36,Pump Station Beta,warning
+S002,2024-01-05 00:00:00,5.02,39.89,107.08,72.19,Pump Station Beta,normal
+S002,2024-01-05 00:30:00,4.91,39.61,96.42,73.96,Pump Station Beta,normal
+S002,2024-01-05 01:00:00,5.07,43.3,88.95,70.15,Pump Station Beta,normal
+S002,2024-01-05 01:30:00,4.87,39.27,104.06,68.7,Pump Station Beta,normal
+S002,2024-01-05 02:00:00,5.18,39.86,84.63,68.91,Pump Station Beta,normal
+S002,2024-01-05 02:30:00,4.64,41.72,95.26,74.21,Pump Station Beta,warning
+S002,2024-01-05 03:00:00,4.97,43.42,82.61,68.83,Pump Station Beta,normal
+S002,2024-01-05 03:30:00,4.98,41.33,94.12,72.76,Pump Station Beta,normal
+S003,2024-01-01 00:00:00,6.29,45.69,161.37,89.73,Pipeline Junction 1,normal
+S003,2024-01-01 00:30:00,6.21,44.12,151.53,89.26,Pipeline Junction 1,normal
+S003,2024-01-01 01:00:00,6.22,45.64,162.4,86.53,Pipeline Junction 1,normal
+S003,2024-01-01 01:30:00,6.42,42.18,147.09,94.49,Pipeline Junction 1,normal
+S003,2024-01-01 02:00:00,6.33,48.29,135.04,86.57,Pipeline Junction 1,normal
+S003,2024-01-01 02:30:00,6.3,42.66,162.19,89.39,Pipeline Junction 1,normal
+S003,2024-01-01 03:00:00,5.65,45.36,166.32,92.83,Pipeline Junction 1,normal
+S003,2024-01-01 03:30:00,6.82,46.32,146.93,88.75,Pipeline Junction 1,warning
+S003,2024-01-01 04:00:00,5.89,45.16,167.13,92.45,Pipeline Junction 1,normal
+S003,2024-01-01 04:30:00,6.16,45.25,153.46,93.29,Pipeline Junction 1,normal
+S003,2024-01-01 05:00:00,5.76,41.65,168.99,87.06,Pipeline Junction 1,normal
+S003,2024-01-01 05:30:00,5.54,47.67,132.75,86.91,Pipeline Junction 1,warning
+S003,2024-01-01 06:00:00,6.48,42.11,155.02,89.63,Pipeline Junction 1,normal
+S003,2024-01-01 06:30:00,6.55,41.73,147.39,88.23,Pipeline Junction 1,normal
+S003,2024-01-01 07:00:00,5.55,41.73,134.14,91.01,Pipeline Junction 1,warning
+S003,2024-01-01 07:30:00,5.87,42.08,165.6,94.21,Pipeline Junction 1,normal
+S003,2024-01-01 08:00:00,5.92,44.97,148.53,90.54,Pipeline Junction 1,normal
+S003,2024-01-01 08:30:00,5.55,46.87,163.4,88.23,Pipeline Junction 1,warning
+S003,2024-01-01 09:00:00,6.34,46.36,170.98,91.55,Pipeline Junction 1,normal
+S003,2024-01-01 09:30:00,6.18,44.03,140.58,94.38,Pipeline Junction 1,normal
+S003,2024-01-01 10:00:00,5.68,47.9,138.03,93.83,Pipeline Junction 1,normal
+S003,2024-01-01 10:30:00,6.62,41.45,152.32,87.42,Pipeline Junction 1,warning
+S003,2024-01-01 11:00:00,6.01,43.06,136.51,90.99,Pipeline Junction 1,normal
+S003,2024-01-01 11:30:00,6.33,48.54,158.26,86.69,Pipeline Junction 1,normal
+S003,2024-01-01 12:00:00,5.72,43.31,160.86,91.0,Pipeline Junction 1,normal
+S003,2024-01-01 12:30:00,6.54,43.46,136.13,94.15,Pipeline Junction 1,normal
+S003,2024-01-01 13:00:00,5.86,45.11,151.78,87.42,Pipeline Junction 1,normal
+S003,2024-01-01 13:30:00,6.53,47.68,135.11,92.01,Pipeline Junction 1,normal
+S003,2024-01-01 14:00:00,6.31,47.63,169.24,89.39,Pipeline Junction 1,normal
+S003,2024-01-01 14:30:00,5.46,48.11,136.52,94.86,Pipeline Junction 1,warning
+S003,2024-01-01 15:00:00,6.03,43.46,167.57,92.9,Pipeline Junction 1,normal
+S003,2024-01-01 15:30:00,6.37,41.51,130.95,87.45,Pipeline Junction 1,normal
+S003,2024-01-01 16:00:00,5.69,47.39,129.8,87.83,Pipeline Junction 1,normal
+S003,2024-01-01 16:30:00,5.61,48.14,170.76,94.08,Pipeline Junction 1,warning
+S003,2024-01-01 17:00:00,5.82,44.06,149.08,93.58,Pipeline Junction 1,normal
+S003,2024-01-01 17:30:00,6.59,41.45,148.06,88.15,Pipeline Junction 1,warning
+S003,2024-01-01 18:00:00,5.56,41.4,166.39,93.36,Pipeline Junction 1,warning
+S003,2024-01-01 18:30:00,6.09,45.88,135.7,92.49,Pipeline Junction 1,normal
+S003,2024-01-01 19:00:00,6.79,44.82,129.9,95.45,Pipeline Junction 1,warning
+S003,2024-01-01 19:30:00,5.97,46.56,160.02,91.76,Pipeline Junction 1,normal
+S003,2024-01-01 20:00:00,6.47,44.0,129.53,93.28,Pipeline Junction 1,normal
+S003,2024-01-01 20:30:00,6.01,47.23,171.16,95.12,Pipeline Junction 1,normal
+S003,2024-01-01 21:00:00,6.73,41.67,164.71,91.45,Pipeline Junction 1,warning
+S003,2024-01-01 21:30:00,6.63,44.28,146.94,93.93,Pipeline Junction 1,warning
+S003,2024-01-01 22:00:00,6.44,41.46,145.53,91.97,Pipeline Junction 1,normal
+S003,2024-01-01 22:30:00,6.4,46.73,166.05,87.88,Pipeline Junction 1,normal
+S003,2024-01-01 23:00:00,6.52,42.42,149.26,89.76,Pipeline Junction 1,normal
+S003,2024-01-01 23:30:00,6.54,45.4,130.31,92.7,Pipeline Junction 1,normal
+S003,2024-01-02 00:00:00,5.85,45.07,135.2,93.33,Pipeline Junction 1,normal
+S003,2024-01-02 00:30:00,6.32,42.14,142.27,90.37,Pipeline Junction 1,normal
+S003,2024-01-02 01:00:00,5.77,43.49,151.49,91.81,Pipeline Junction 1,normal
+S003,2024-01-02 01:30:00,5.46,43.97,148.13,92.25,Pipeline Junction 1,warning
+S003,2024-01-02 02:00:00,5.7,45.45,129.56,87.92,Pipeline Junction 1,normal
+S003,2024-01-02 02:30:00,6.03,44.85,154.79,88.43,Pipeline Junction 1,normal
+S003,2024-01-02 03:00:00,5.62,46.34,162.31,95.12,Pipeline Junction 1,normal
+S003,2024-01-02 03:30:00,6.06,45.61,160.76,91.44,Pipeline Junction 1,normal
+S003,2024-01-02 04:00:00,5.54,42.98,138.06,94.93,Pipeline Junction 1,warning
+S003,2024-01-02 04:30:00,5.9,48.38,158.46,86.91,Pipeline Junction 1,normal
+S003,2024-01-02 05:00:00,6.09,41.74,149.14,94.94,Pipeline Junction 1,normal
+S003,2024-01-02 05:30:00,6.05,48.11,169.38,87.91,Pipeline Junction 1,normal
+S003,2024-01-02 06:00:00,5.89,44.63,148.06,87.26,Pipeline Junction 1,normal
+S003,2024-01-02 06:30:00,5.5,43.25,165.12,93.29,Pipeline Junction 1,warning
+S003,2024-01-02 07:00:00,5.84,42.44,155.86,90.29,Pipeline Junction 1,normal
+S003,2024-01-02 07:30:00,6.1,44.11,155.08,90.65,Pipeline Junction 1,normal
+S003,2024-01-02 08:00:00,6.51,47.4,154.88,92.82,Pipeline Junction 1,normal
+S003,2024-01-02 08:30:00,5.91,43.67,132.59,91.6,Pipeline Junction 1,normal
+S003,2024-01-02 09:00:00,6.21,44.02,143.14,90.55,Pipeline Junction 1,normal
+S003,2024-01-02 09:30:00,5.44,48.19,162.89,88.92,Pipeline Junction 1,warning
+S003,2024-01-02 10:00:00,6.0,42.14,149.59,90.81,Pipeline Junction 1,normal
+S003,2024-01-02 10:30:00,5.79,47.28,166.46,94.24,Pipeline Junction 1,normal
+S003,2024-01-02 11:00:00,6.75,45.93,146.28,93.08,Pipeline Junction 1,warning
+S003,2024-01-02 11:30:00,6.75,41.71,160.06,90.76,Pipeline Junction 1,warning
+S003,2024-01-02 12:00:00,5.6,42.69,135.99,91.05,Pipeline Junction 1,warning
+S003,2024-01-02 12:30:00,5.71,41.9,167.36,91.42,Pipeline Junction 1,normal
+S003,2024-01-02 13:00:00,6.09,48.0,139.25,90.8,Pipeline Junction 1,normal
+S003,2024-01-02 13:30:00,6.08,45.5,134.78,91.61,Pipeline Junction 1,normal
+S003,2024-01-02 14:00:00,6.71,46.79,138.1,87.41,Pipeline Junction 1,warning
+S003,2024-01-02 14:30:00,5.82,41.98,142.15,88.08,Pipeline Junction 1,normal
+S003,2024-01-02 15:00:00,6.7,45.79,144.93,88.92,Pipeline Junction 1,warning
+S003,2024-01-02 15:30:00,5.8,48.14,151.16,87.37,Pipeline Junction 1,normal
+S003,2024-01-02 16:00:00,6.8,47.78,130.15,89.85,Pipeline Junction 1,warning
+S003,2024-01-02 16:30:00,5.77,43.85,145.68,86.81,Pipeline Junction 1,normal
+S003,2024-01-02 17:00:00,5.83,41.67,150.21,95.06,Pipeline Junction 1,normal
+S003,2024-01-02 17:30:00,5.71,43.29,167.17,90.0,Pipeline Junction 1,normal
+S003,2024-01-02 18:00:00,6.7,45.02,155.82,90.08,Pipeline Junction 1,warning
+S003,2024-01-02 18:30:00,6.49,47.22,157.52,92.99,Pipeline Junction 1,normal
+S003,2024-01-02 19:00:00,5.89,48.5,142.94,91.84,Pipeline Junction 1,normal
+S003,2024-01-02 19:30:00,5.41,44.39,129.87,87.94,Pipeline Junction 1,warning
+S003,2024-01-02 20:00:00,6.46,44.02,133.81,93.72,Pipeline Junction 1,normal
+S003,2024-01-02 20:30:00,5.47,48.41,134.62,91.85,Pipeline Junction 1,warning
+S003,2024-01-02 21:00:00,5.77,44.4,133.95,89.81,Pipeline Junction 1,normal
+S003,2024-01-02 21:30:00,6.24,41.53,141.74,93.08,Pipeline Junction 1,normal
+S003,2024-01-02 22:00:00,5.43,48.47,151.67,92.65,Pipeline Junction 1,warning
+S003,2024-01-02 22:30:00,6.38,44.15,137.2,95.16,Pipeline Junction 1,normal
+S003,2024-01-02 23:00:00,6.37,45.49,154.4,91.44,Pipeline Junction 1,normal
+S003,2024-01-02 23:30:00,5.74,45.36,160.9,86.62,Pipeline Junction 1,normal
+S003,2024-01-03 00:00:00,6.54,45.92,138.29,95.04,Pipeline Junction 1,normal
+S003,2024-01-03 00:30:00,6.55,46.69,158.27,95.29,Pipeline Junction 1,normal
+S003,2024-01-03 01:00:00,6.44,45.3,138.54,91.42,Pipeline Junction 1,normal
+S003,2024-01-03 01:30:00,6.33,41.6,155.08,88.18,Pipeline Junction 1,normal
+S003,2024-01-03 02:00:00,5.6,46.8,154.63,89.48,Pipeline Junction 1,warning
+S003,2024-01-03 02:30:00,5.42,47.59,141.95,94.71,Pipeline Junction 1,warning
+S003,2024-01-03 03:00:00,5.79,45.58,144.15,89.78,Pipeline Junction 1,normal
+S003,2024-01-03 03:30:00,5.77,41.5,151.88,93.83,Pipeline Junction 1,normal
+S003,2024-01-03 04:00:00,6.82,44.93,144.81,91.34,Pipeline Junction 1,warning
+S003,2024-01-03 04:30:00,6.09,41.52,161.46,93.24,Pipeline Junction 1,normal
+S003,2024-01-03 05:00:00,6.33,48.39,150.37,88.7,Pipeline Junction 1,normal
+S003,2024-01-03 05:30:00,5.94,47.22,172.34,88.53,Pipeline Junction 1,normal
+S003,2024-01-03 06:00:00,5.65,43.42,141.26,88.52,Pipeline Junction 1,normal
+S003,2024-01-03 06:30:00,6.71,44.76,169.27,95.02,Pipeline Junction 1,warning
+S003,2024-01-03 07:00:00,6.23,44.08,140.29,87.26,Pipeline Junction 1,normal
+S003,2024-01-03 07:30:00,5.92,44.44,157.31,92.37,Pipeline Junction 1,normal
+S003,2024-01-03 08:00:00,6.2,42.67,140.75,95.42,Pipeline Junction 1,normal
+S003,2024-01-03 08:30:00,6.43,47.64,149.01,94.28,Pipeline Junction 1,normal
+S003,2024-01-03 09:00:00,5.4,48.1,151.35,93.04,Pipeline Junction 1,warning
+S003,2024-01-03 09:30:00,6.12,42.07,166.21,90.82,Pipeline Junction 1,normal
+S003,2024-01-03 10:00:00,5.79,43.17,170.98,93.47,Pipeline Junction 1,normal
+S003,2024-01-03 10:30:00,6.8,48.56,131.98,88.09,Pipeline Junction 1,warning
+S003,2024-01-03 11:00:00,6.44,44.47,151.48,95.43,Pipeline Junction 1,normal
+S003,2024-01-03 11:30:00,6.09,42.66,168.7,91.12,Pipeline Junction 1,normal
+S003,2024-01-03 12:00:00,5.7,43.81,169.43,92.14,Pipeline Junction 1,normal
+S003,2024-01-03 12:30:00,6.05,45.35,155.21,89.15,Pipeline Junction 1,normal
+S003,2024-01-03 13:00:00,5.69,46.49,159.33,89.14,Pipeline Junction 1,normal
+S003,2024-01-03 13:30:00,5.81,48.39,170.74,90.78,Pipeline Junction 1,normal
+S003,2024-01-03 14:00:00,5.92,42.74,162.16,88.86,Pipeline Junction 1,normal
+S003,2024-01-03 14:30:00,6.55,47.94,149.75,86.45,Pipeline Junction 1,normal
+S003,2024-01-03 15:00:00,6.32,47.71,140.71,88.06,Pipeline Junction 1,normal
+S003,2024-01-03 15:30:00,6.48,48.18,132.31,92.21,Pipeline Junction 1,normal
+S003,2024-01-03 16:00:00,6.09,43.37,151.14,92.05,Pipeline Junction 1,normal
+S003,2024-01-03 16:30:00,5.44,47.91,170.59,91.84,Pipeline Junction 1,warning
+S003,2024-01-03 17:00:00,6.18,42.79,135.67,94.1,Pipeline Junction 1,normal
+S003,2024-01-03 17:30:00,5.97,45.4,162.28,89.24,Pipeline Junction 1,normal
+S003,2024-01-03 18:00:00,6.21,46.22,148.52,88.65,Pipeline Junction 1,normal
+S003,2024-01-03 18:30:00,6.46,47.88,162.11,88.96,Pipeline Junction 1,normal
+S003,2024-01-03 19:00:00,6.17,43.65,150.33,94.26,Pipeline Junction 1,normal
+S003,2024-01-03 19:30:00,6.54,47.42,138.0,91.17,Pipeline Junction 1,normal
+S003,2024-01-03 20:00:00,5.63,47.96,149.19,90.03,Pipeline Junction 1,normal
+S003,2024-01-03 20:30:00,6.35,46.84,134.1,91.3,Pipeline Junction 1,normal
+S003,2024-01-03 21:00:00,5.46,47.86,136.0,89.56,Pipeline Junction 1,warning
+S003,2024-01-03 21:30:00,6.7,44.62,130.95,94.29,Pipeline Junction 1,warning
+S003,2024-01-03 22:00:00,5.97,47.71,160.87,93.36,Pipeline Junction 1,normal
+S003,2024-01-03 22:30:00,6.21,46.07,156.17,90.29,Pipeline Junction 1,normal
+S003,2024-01-03 23:00:00,6.41,45.38,160.12,90.38,Pipeline Junction 1,normal
+S003,2024-01-03 23:30:00,5.64,45.22,128.39,91.52,Pipeline Junction 1,normal
+S003,2024-01-04 00:00:00,5.84,46.35,132.88,95.49,Pipeline Junction 1,normal
+S003,2024-01-04 00:30:00,6.33,48.0,144.42,87.53,Pipeline Junction 1,normal
+S003,2024-01-04 01:00:00,6.28,44.83,158.61,92.82,Pipeline Junction 1,normal
+S003,2024-01-04 01:30:00,6.53,47.35,152.27,92.21,Pipeline Junction 1,normal
+S003,2024-01-04 02:00:00,6.57,46.38,168.53,86.56,Pipeline Junction 1,normal
+S003,2024-01-04 02:30:00,6.3,44.33,127.63,88.9,Pipeline Junction 1,normal
+S003,2024-01-04 03:00:00,6.43,42.17,147.91,87.3,Pipeline Junction 1,normal
+S003,2024-01-04 03:30:00,5.95,46.13,161.76,88.94,Pipeline Junction 1,normal
+S003,2024-01-04 04:00:00,6.6,44.84,168.16,86.46,Pipeline Junction 1,warning
+S003,2024-01-04 04:30:00,6.62,42.54,171.5,92.32,Pipeline Junction 1,warning
+S003,2024-01-04 05:00:00,5.44,45.64,151.92,86.98,Pipeline Junction 1,warning
+S003,2024-01-04 05:30:00,5.87,41.56,148.87,90.36,Pipeline Junction 1,normal
+S003,2024-01-04 06:00:00,6.57,46.71,165.53,95.16,Pipeline Junction 1,normal
+S003,2024-01-04 06:30:00,5.63,41.91,167.01,94.35,Pipeline Junction 1,normal
+S003,2024-01-04 07:00:00,6.81,42.44,137.44,88.33,Pipeline Junction 1,warning
+S003,2024-01-04 07:30:00,6.76,47.46,145.61,95.29,Pipeline Junction 1,warning
+S003,2024-01-04 08:00:00,5.71,45.17,151.83,92.1,Pipeline Junction 1,normal
+S003,2024-01-04 08:30:00,6.38,41.52,166.89,92.88,Pipeline Junction 1,normal
+S003,2024-01-04 09:00:00,6.7,42.59,134.53,92.05,Pipeline Junction 1,warning
+S003,2024-01-04 09:30:00,5.66,48.07,127.51,91.49,Pipeline Junction 1,normal
+S003,2024-01-04 10:00:00,5.68,42.57,146.2,90.35,Pipeline Junction 1,normal
+S003,2024-01-04 10:30:00,5.54,44.6,140.34,93.71,Pipeline Junction 1,warning
+S003,2024-01-04 11:00:00,6.74,41.43,161.32,89.42,Pipeline Junction 1,warning
+S003,2024-01-04 11:30:00,5.42,46.37,129.33,89.89,Pipeline Junction 1,warning
+S003,2024-01-04 12:00:00,5.88,41.46,138.52,90.07,Pipeline Junction 1,normal
+S003,2024-01-04 12:30:00,5.66,45.63,136.28,91.67,Pipeline Junction 1,normal
+S003,2024-01-04 13:00:00,5.87,44.36,167.32,92.18,Pipeline Junction 1,normal
+S003,2024-01-04 13:30:00,6.24,46.58,133.28,88.6,Pipeline Junction 1,normal
+S003,2024-01-04 14:00:00,6.42,43.77,155.2,91.77,Pipeline Junction 1,normal
+S003,2024-01-04 14:30:00,6.36,44.88,138.2,95.45,Pipeline Junction 1,normal
+S003,2024-01-04 15:00:00,5.93,41.98,161.31,92.73,Pipeline Junction 1,normal
+S003,2024-01-04 15:30:00,5.4,45.38,160.87,95.32,Pipeline Junction 1,warning
+S003,2024-01-04 16:00:00,5.42,46.43,155.0,87.8,Pipeline Junction 1,warning
+S003,2024-01-04 16:30:00,6.34,44.84,169.51,93.49,Pipeline Junction 1,normal
+S003,2024-01-04 17:00:00,6.74,47.91,146.36,94.47,Pipeline Junction 1,warning
+S003,2024-01-04 17:30:00,6.58,41.9,158.78,87.06,Pipeline Junction 1,normal
+S003,2024-01-04 18:00:00,6.13,42.42,131.41,86.58,Pipeline Junction 1,normal
+S003,2024-01-04 18:30:00,6.42,42.69,131.22,92.26,Pipeline Junction 1,normal
+S003,2024-01-04 19:00:00,6.17,47.6,161.22,94.69,Pipeline Junction 1,normal
+S003,2024-01-04 19:30:00,6.23,45.85,167.49,87.2,Pipeline Junction 1,normal
+S003,2024-01-04 20:00:00,6.79,47.84,171.72,95.23,Pipeline Junction 1,warning
+S003,2024-01-04 20:30:00,6.44,41.86,130.58,89.69,Pipeline Junction 1,normal
+S003,2024-01-04 21:00:00,5.46,43.47,138.15,89.27,Pipeline Junction 1,warning
+S003,2024-01-04 21:30:00,5.89,46.35,152.39,87.73,Pipeline Junction 1,normal
+S003,2024-01-04 22:00:00,6.79,45.44,169.58,87.87,Pipeline Junction 1,warning
+S003,2024-01-04 22:30:00,6.26,42.3,147.49,88.32,Pipeline Junction 1,normal
+S003,2024-01-04 23:00:00,6.59,45.27,129.33,91.16,Pipeline Junction 1,warning
+S003,2024-01-04 23:30:00,6.46,47.17,152.02,90.6,Pipeline Junction 1,normal
+S003,2024-01-05 00:00:00,5.55,45.4,143.56,90.45,Pipeline Junction 1,warning
+S003,2024-01-05 00:30:00,6.08,46.1,145.13,92.2,Pipeline Junction 1,normal
+S003,2024-01-05 01:00:00,5.66,47.84,153.45,90.2,Pipeline Junction 1,normal
+S003,2024-01-05 01:30:00,6.11,48.39,145.85,91.21,Pipeline Junction 1,normal
+S003,2024-01-05 02:00:00,5.93,43.04,146.87,91.72,Pipeline Junction 1,normal
+S003,2024-01-05 02:30:00,6.5,44.06,167.08,90.78,Pipeline Junction 1,normal
+S003,2024-01-05 03:00:00,6.39,43.37,154.73,92.23,Pipeline Junction 1,normal
+S003,2024-01-05 03:30:00,5.46,45.29,164.51,93.66,Pipeline Junction 1,warning
+S004,2024-01-01 00:00:00,3.38,34.51,84.53,66.53,Storage Tank West,warning
+S004,2024-01-01 00:30:00,3.9,35.42,85.19,68.13,Storage Tank West,normal
+S004,2024-01-01 01:00:00,3.98,34.44,79.63,64.67,Storage Tank West,normal
+S004,2024-01-01 01:30:00,3.91,33.13,73.0,65.4,Storage Tank West,normal
+S004,2024-01-01 02:00:00,4.0,37.7,91.67,65.37,Storage Tank West,normal
+S004,2024-01-01 02:30:00,3.69,33.9,68.07,64.35,Storage Tank West,normal
+S004,2024-01-01 03:00:00,4.05,35.68,74.17,66.58,Storage Tank West,normal
+S004,2024-01-01 03:30:00,3.35,37.25,74.1,65.07,Storage Tank West,warning
+S004,2024-01-01 04:00:00,3.8,34.21,86.5,66.07,Storage Tank West,normal
+S004,2024-01-01 04:30:00,3.48,34.65,77.03,62.77,Storage Tank West,warning
+S004,2024-01-01 05:00:00,3.43,35.67,83.55,63.33,Storage Tank West,warning
+S004,2024-01-01 05:30:00,3.58,34.86,69.19,62.35,Storage Tank West,normal
+S004,2024-01-01 06:00:00,3.84,32.69,68.0,63.11,Storage Tank West,normal
+S004,2024-01-01 06:30:00,3.58,35.39,84.9,63.82,Storage Tank West,normal
+S004,2024-01-01 07:00:00,3.96,32.34,76.68,66.75,Storage Tank West,normal
+S004,2024-01-01 07:30:00,4.05,35.56,89.05,63.97,Storage Tank West,normal
+S004,2024-01-01 08:00:00,4.19,32.61,83.29,68.16,Storage Tank West,warning
+S004,2024-01-01 08:30:00,4.16,35.88,85.96,65.6,Storage Tank West,warning
+S004,2024-01-01 09:00:00,3.78,36.55,87.22,65.76,Storage Tank West,normal
+S004,2024-01-01 09:30:00,3.92,35.85,91.77,65.68,Storage Tank West,normal
+S004,2024-01-01 10:00:00,4.01,34.72,78.81,62.77,Storage Tank West,normal
+S004,2024-01-01 10:30:00,3.88,37.51,79.56,65.96,Storage Tank West,normal
+S004,2024-01-01 11:00:00,4.07,35.26,81.21,67.0,Storage Tank West,normal
+S004,2024-01-01 11:30:00,3.55,35.39,85.58,67.57,Storage Tank West,normal
+S004,2024-01-01 12:00:00,3.64,36.09,88.83,63.01,Storage Tank West,normal
+S004,2024-01-01 12:30:00,3.72,37.0,86.82,61.84,Storage Tank West,normal
+S004,2024-01-01 13:00:00,3.45,33.51,87.04,64.89,Storage Tank West,warning
+S004,2024-01-01 13:30:00,4.19,35.89,77.35,64.35,Storage Tank West,warning
+S004,2024-01-01 14:00:00,4.22,32.26,87.04,66.9,Storage Tank West,warning
+S004,2024-01-01 14:30:00,3.8,36.41,82.49,62.97,Storage Tank West,normal
+S004,2024-01-01 15:00:00,3.92,32.75,82.35,66.12,Storage Tank West,normal
+S004,2024-01-01 15:30:00,3.98,33.13,81.64,62.4,Storage Tank West,normal
+S004,2024-01-01 16:00:00,4.19,33.14,79.26,67.9,Storage Tank West,warning
+S004,2024-01-01 16:30:00,3.67,37.32,70.17,66.06,Storage Tank West,normal
+S004,2024-01-01 17:00:00,3.81,32.5,85.21,68.02,Storage Tank West,normal
+S004,2024-01-01 17:30:00,3.77,36.68,81.88,62.38,Storage Tank West,normal
+S004,2024-01-01 18:00:00,4.02,36.67,72.94,62.11,Storage Tank West,normal
+S004,2024-01-01 18:30:00,3.44,36.61,84.16,63.37,Storage Tank West,warning
+S004,2024-01-01 19:00:00,3.91,37.5,80.07,62.42,Storage Tank West,normal
+S004,2024-01-01 19:30:00,4.15,33.87,72.85,66.32,Storage Tank West,warning
+S004,2024-01-01 20:00:00,4.02,33.06,87.3,65.21,Storage Tank West,normal
+S004,2024-01-01 20:30:00,4.17,33.39,78.2,62.29,Storage Tank West,warning
+S004,2024-01-01 21:00:00,4.07,33.1,89.25,63.1,Storage Tank West,normal
+S004,2024-01-01 21:30:00,3.97,35.43,68.22,63.39,Storage Tank West,normal
+S004,2024-01-01 22:00:00,3.96,33.75,88.96,64.03,Storage Tank West,normal
+S004,2024-01-01 22:30:00,4.08,36.65,72.32,62.47,Storage Tank West,normal
+S004,2024-01-01 23:00:00,3.74,35.85,70.08,63.15,Storage Tank West,normal
+S004,2024-01-01 23:30:00,3.4,33.19,82.28,66.79,Storage Tank West,warning
+S004,2024-01-02 00:00:00,4.15,37.2,80.69,62.1,Storage Tank West,warning
+S004,2024-01-02 00:30:00,4.24,33.69,76.16,67.73,Storage Tank West,warning
+S004,2024-01-02 01:00:00,3.78,34.29,69.51,64.39,Storage Tank West,normal
+S004,2024-01-02 01:30:00,4.23,32.21,74.76,63.97,Storage Tank West,warning
+S004,2024-01-02 02:00:00,4.2,33.97,81.61,64.25,Storage Tank West,warning
+S004,2024-01-02 02:30:00,3.47,34.01,72.1,63.07,Storage Tank West,warning
+S004,2024-01-02 03:00:00,3.92,34.05,77.15,65.33,Storage Tank West,normal
+S004,2024-01-02 03:30:00,4.13,35.87,85.89,64.3,Storage Tank West,warning
+S004,2024-01-02 04:00:00,3.65,34.09,77.15,61.88,Storage Tank West,normal
+S004,2024-01-02 04:30:00,4.16,37.76,71.99,65.91,Storage Tank West,warning
+S004,2024-01-02 05:00:00,3.73,34.33,76.73,67.2,Storage Tank West,normal
+S004,2024-01-02 05:30:00,3.95,37.07,77.44,67.5,Storage Tank West,normal
+S004,2024-01-02 06:00:00,3.57,34.98,70.91,63.61,Storage Tank West,normal
+S004,2024-01-02 06:30:00,4.15,33.07,70.69,68.03,Storage Tank West,warning
+S004,2024-01-02 07:00:00,3.59,36.5,86.61,67.0,Storage Tank West,normal
+S004,2024-01-02 07:30:00,4.22,34.05,71.02,61.88,Storage Tank West,warning
+S004,2024-01-02 08:00:00,3.47,36.23,76.71,67.68,Storage Tank West,warning
+S004,2024-01-02 08:30:00,3.74,32.78,75.86,67.08,Storage Tank West,normal
+S004,2024-01-02 09:00:00,3.59,32.6,86.4,62.56,Storage Tank West,normal
+S004,2024-01-02 09:30:00,3.57,35.56,68.48,67.07,Storage Tank West,normal
+S004,2024-01-02 10:00:00,4.08,34.3,72.49,64.04,Storage Tank West,normal
+S004,2024-01-02 10:30:00,3.4,32.6,70.54,67.55,Storage Tank West,warning
+S004,2024-01-02 11:00:00,4.22,34.63,79.97,64.02,Storage Tank West,warning
+S004,2024-01-02 11:30:00,4.18,37.73,78.8,67.9,Storage Tank West,warning
+S004,2024-01-02 12:00:00,3.96,33.26,70.05,62.64,Storage Tank West,normal
+S004,2024-01-02 12:30:00,3.74,36.34,72.37,64.64,Storage Tank West,normal
+S004,2024-01-02 13:00:00,3.77,32.69,80.85,64.28,Storage Tank West,normal
+S004,2024-01-02 13:30:00,3.99,37.4,89.73,66.56,Storage Tank West,normal
+S004,2024-01-02 14:00:00,3.52,32.26,85.24,65.36,Storage Tank West,normal
+S004,2024-01-02 14:30:00,4.02,36.79,75.36,62.07,Storage Tank West,normal
+S004,2024-01-02 15:00:00,4.23,36.62,70.08,67.64,Storage Tank West,warning
+S004,2024-01-02 15:30:00,3.77,33.96,88.14,67.29,Storage Tank West,normal
+S004,2024-01-02 16:00:00,3.39,37.51,85.72,67.06,Storage Tank West,warning
+S004,2024-01-02 16:30:00,3.91,34.77,84.24,65.48,Storage Tank West,normal
+S004,2024-01-02 17:00:00,3.94,32.83,69.64,67.97,Storage Tank West,normal
+S004,2024-01-02 17:30:00,4.16,35.03,69.14,66.97,Storage Tank West,warning
+S004,2024-01-02 18:00:00,4.07,34.13,79.66,65.38,Storage Tank West,normal
+S004,2024-01-02 18:30:00,3.79,32.96,79.55,63.31,Storage Tank West,normal
+S004,2024-01-02 19:00:00,4.01,34.05,77.39,64.25,Storage Tank West,normal
+S004,2024-01-02 19:30:00,3.56,35.49,73.55,62.67,Storage Tank West,normal
+S004,2024-01-02 20:00:00,3.91,32.98,86.77,65.65,Storage Tank West,normal
+S004,2024-01-02 20:30:00,3.55,35.24,71.31,63.62,Storage Tank West,normal
+S004,2024-01-02 21:00:00,3.65,32.27,89.45,64.09,Storage Tank West,normal
+S004,2024-01-02 21:30:00,4.21,35.37,73.59,66.81,Storage Tank West,warning
+S004,2024-01-02 22:00:00,4.16,35.15,80.19,67.3,Storage Tank West,warning
+S004,2024-01-02 22:30:00,4.02,35.25,75.43,65.81,Storage Tank West,normal
+S004,2024-01-02 23:00:00,3.75,33.18,83.77,66.27,Storage Tank West,normal
+S004,2024-01-02 23:30:00,4.13,32.47,75.3,61.78,Storage Tank West,warning
+S004,2024-01-03 00:00:00,4.05,37.59,75.77,66.51,Storage Tank West,normal
+S004,2024-01-03 00:30:00,3.42,36.43,78.63,64.67,Storage Tank West,warning
+S004,2024-01-03 01:00:00,4.25,34.01,75.54,67.63,Storage Tank West,warning
+S004,2024-01-03 01:30:00,3.42,33.68,88.62,67.72,Storage Tank West,warning
+S004,2024-01-03 02:00:00,3.8,32.28,84.43,64.35,Storage Tank West,normal
+S004,2024-01-03 02:30:00,3.7,35.24,73.84,67.33,Storage Tank West,normal
+S004,2024-01-03 03:00:00,4.23,32.9,91.09,62.27,Storage Tank West,warning
+S004,2024-01-03 03:30:00,4.14,33.87,76.53,64.93,Storage Tank West,warning
+S004,2024-01-03 04:00:00,3.54,36.78,79.19,67.41,Storage Tank West,normal
+S004,2024-01-03 04:30:00,3.68,35.65,71.02,65.27,Storage Tank West,normal
+S004,2024-01-03 05:00:00,4.17,34.27,88.62,62.65,Storage Tank West,warning
+S004,2024-01-03 05:30:00,4.13,34.37,72.38,63.87,Storage Tank West,warning
+S004,2024-01-03 06:00:00,3.81,37.34,88.34,66.0,Storage Tank West,normal
+S004,2024-01-03 06:30:00,3.41,36.3,86.25,62.23,Storage Tank West,warning
+S004,2024-01-03 07:00:00,4.23,33.93,80.34,61.84,Storage Tank West,warning
+S004,2024-01-03 07:30:00,3.41,32.84,87.8,64.56,Storage Tank West,warning
+S004,2024-01-03 08:00:00,3.85,34.89,90.15,63.02,Storage Tank West,normal
+S004,2024-01-03 08:30:00,3.91,33.88,87.16,62.24,Storage Tank West,normal
+S004,2024-01-03 09:00:00,4.24,34.97,87.04,66.21,Storage Tank West,warning
+S004,2024-01-03 09:30:00,3.85,34.55,80.23,64.85,Storage Tank West,normal
+S004,2024-01-03 10:00:00,3.92,37.22,73.03,63.18,Storage Tank West,normal
+S004,2024-01-03 10:30:00,4.23,34.29,77.66,62.39,Storage Tank West,warning
+S004,2024-01-03 11:00:00,3.83,36.02,74.79,63.66,Storage Tank West,normal
+S004,2024-01-03 11:30:00,3.72,35.56,89.18,66.78,Storage Tank West,normal
+S004,2024-01-03 12:00:00,3.68,36.27,78.28,65.11,Storage Tank West,normal
+S004,2024-01-03 12:30:00,3.73,33.74,79.07,65.53,Storage Tank West,normal
+S004,2024-01-03 13:00:00,3.86,33.3,82.47,63.11,Storage Tank West,normal
+S004,2024-01-03 13:30:00,3.44,37.45,84.39,62.93,Storage Tank West,warning
+S004,2024-01-03 14:00:00,4.13,36.68,86.78,64.33,Storage Tank West,warning
+S004,2024-01-03 14:30:00,3.76,32.84,80.98,65.88,Storage Tank West,normal
+S004,2024-01-03 15:00:00,4.01,36.34,82.44,67.22,Storage Tank West,normal
+S004,2024-01-03 15:30:00,3.53,35.71,87.6,61.89,Storage Tank West,normal
+S004,2024-01-03 16:00:00,3.53,32.85,69.02,64.8,Storage Tank West,normal
+S004,2024-01-03 16:30:00,3.7,34.15,72.64,61.88,Storage Tank West,normal
+S004,2024-01-03 17:00:00,4.24,34.75,86.12,62.3,Storage Tank West,warning
+S004,2024-01-03 17:30:00,3.45,34.98,84.81,62.71,Storage Tank West,warning
+S004,2024-01-03 18:00:00,4.24,37.41,90.34,63.6,Storage Tank West,warning
+S004,2024-01-03 18:30:00,4.0,33.56,77.41,65.39,Storage Tank West,normal
+S004,2024-01-03 19:00:00,4.22,36.73,77.22,64.74,Storage Tank West,warning
+S004,2024-01-03 19:30:00,4.19,35.29,69.04,63.81,Storage Tank West,warning
+S004,2024-01-03 20:00:00,4.11,35.68,75.52,66.95,Storage Tank West,warning
+S004,2024-01-03 20:30:00,3.78,36.49,91.94,65.59,Storage Tank West,normal
+S004,2024-01-03 21:00:00,3.5,34.32,77.02,62.24,Storage Tank West,normal
+S004,2024-01-03 21:30:00,3.44,37.6,71.36,65.56,Storage Tank West,warning
+S004,2024-01-03 22:00:00,3.59,34.61,90.41,67.85,Storage Tank West,normal
+S004,2024-01-03 22:30:00,3.47,34.66,91.43,64.47,Storage Tank West,warning
+S004,2024-01-03 23:00:00,4.15,35.87,87.73,65.47,Storage Tank West,warning
+S004,2024-01-03 23:30:00,4.18,37.27,85.32,67.69,Storage Tank West,warning
+S004,2024-01-04 00:00:00,3.72,35.14,82.87,65.44,Storage Tank West,normal
+S004,2024-01-04 00:30:00,3.5,34.57,69.07,66.21,Storage Tank West,normal
+S004,2024-01-04 01:00:00,3.73,33.7,81.03,64.88,Storage Tank West,normal
+S004,2024-01-04 01:30:00,4.24,32.9,68.37,63.55,Storage Tank West,warning
+S004,2024-01-04 02:00:00,3.62,35.43,71.03,62.21,Storage Tank West,normal
+S004,2024-01-04 02:30:00,3.39,35.11,88.37,66.59,Storage Tank West,warning
+S004,2024-01-04 03:00:00,3.88,35.94,78.58,62.7,Storage Tank West,normal
+S004,2024-01-04 03:30:00,3.7,32.94,91.37,66.63,Storage Tank West,normal
+S004,2024-01-04 04:00:00,3.73,33.66,69.36,66.6,Storage Tank West,normal
+S004,2024-01-04 04:30:00,3.66,35.5,81.56,65.57,Storage Tank West,normal
+S004,2024-01-04 05:00:00,4.13,34.26,79.75,67.78,Storage Tank West,warning
+S004,2024-01-04 05:30:00,3.8,33.3,83.4,65.48,Storage Tank West,normal
+S004,2024-01-04 06:00:00,4.19,32.44,77.2,67.16,Storage Tank West,warning
+S004,2024-01-04 06:30:00,3.49,33.85,89.02,65.31,Storage Tank West,warning
+S004,2024-01-04 07:00:00,3.82,32.4,73.17,63.15,Storage Tank West,normal
+S004,2024-01-04 07:30:00,4.11,34.11,82.72,63.64,Storage Tank West,warning
+S004,2024-01-04 08:00:00,3.65,33.89,76.09,68.02,Storage Tank West,normal
+S004,2024-01-04 08:30:00,3.87,35.94,89.33,63.37,Storage Tank West,normal
+S004,2024-01-04 09:00:00,3.52,35.85,77.42,63.84,Storage Tank West,normal
+S004,2024-01-04 09:30:00,4.09,34.77,77.28,65.63,Storage Tank West,normal
+S004,2024-01-04 10:00:00,3.77,37.47,70.26,65.7,Storage Tank West,normal
+S004,2024-01-04 10:30:00,4.18,35.06,87.03,63.99,Storage Tank West,warning
+S004,2024-01-04 11:00:00,3.92,36.25,81.05,65.69,Storage Tank West,normal
+S004,2024-01-04 11:30:00,4.25,37.0,89.75,63.46,Storage Tank West,warning
+S004,2024-01-04 12:00:00,3.49,34.81,71.19,63.53,Storage Tank West,warning
+S004,2024-01-04 12:30:00,3.4,34.0,81.7,65.99,Storage Tank West,warning
+S004,2024-01-04 13:00:00,4.2,33.8,75.88,67.87,Storage Tank West,warning
+S004,2024-01-04 13:30:00,3.93,32.56,89.33,64.66,Storage Tank West,normal
+S004,2024-01-04 14:00:00,3.65,37.47,74.22,64.76,Storage Tank West,normal
+S004,2024-01-04 14:30:00,4.0,36.69,84.18,66.33,Storage Tank West,normal
+S004,2024-01-04 15:00:00,3.74,35.22,84.22,62.59,Storage Tank West,normal
+S004,2024-01-04 15:30:00,3.87,32.2,75.66,66.82,Storage Tank West,normal
+S004,2024-01-04 16:00:00,3.81,34.19,85.55,66.4,Storage Tank West,normal
+S004,2024-01-04 16:30:00,4.11,35.73,74.17,66.43,Storage Tank West,warning
+S004,2024-01-04 17:00:00,3.44,33.53,74.38,67.85,Storage Tank West,warning
+S004,2024-01-04 17:30:00,3.86,33.84,87.3,63.87,Storage Tank West,normal
+S004,2024-01-04 18:00:00,3.77,34.39,88.75,64.55,Storage Tank West,normal
+S004,2024-01-04 18:30:00,4.01,32.55,80.0,66.75,Storage Tank West,normal
+S004,2024-01-04 19:00:00,3.48,32.39,73.53,64.21,Storage Tank West,warning
+S004,2024-01-04 19:30:00,3.36,33.11,75.1,62.82,Storage Tank West,warning
+S004,2024-01-04 20:00:00,3.63,37.39,79.83,65.07,Storage Tank West,normal
+S004,2024-01-04 20:30:00,3.94,37.56,91.21,66.64,Storage Tank West,normal
+S004,2024-01-04 21:00:00,3.39,37.13,68.5,62.62,Storage Tank West,warning
+S004,2024-01-04 21:30:00,3.49,36.86,75.92,66.85,Storage Tank West,warning
+S004,2024-01-04 22:00:00,3.96,35.03,70.39,65.35,Storage Tank West,normal
+S004,2024-01-04 22:30:00,4.21,34.2,71.13,64.65,Storage Tank West,warning
+S004,2024-01-04 23:00:00,4.0,35.6,85.21,63.57,Storage Tank West,normal
+S004,2024-01-04 23:30:00,3.52,35.35,73.02,66.58,Storage Tank West,normal
+S004,2024-01-05 00:00:00,3.66,34.87,74.05,68.23,Storage Tank West,normal
+S004,2024-01-05 00:30:00,3.45,36.75,80.45,66.73,Storage Tank West,warning
+S004,2024-01-05 01:00:00,3.64,34.44,82.37,63.03,Storage Tank West,normal
+S004,2024-01-05 01:30:00,3.78,32.93,75.98,65.2,Storage Tank West,normal
+S004,2024-01-05 02:00:00,3.61,34.36,76.31,64.06,Storage Tank West,normal
+S004,2024-01-05 02:30:00,3.37,35.14,79.46,67.72,Storage Tank West,warning
+S004,2024-01-05 03:00:00,4.14,32.53,86.88,62.69,Storage Tank West,warning
+S004,2024-01-05 03:30:00,3.67,34.94,89.5,64.42,Storage Tank West,normal
+S005,2024-01-01 00:00:00,6.56,54.95,187.35,100,Refinery Inlet,warning
+S005,2024-01-01 00:30:00,6.69,49.59,199.68,95.1,Refinery Inlet,warning
+S005,2024-01-01 01:00:00,8.14,50.65,193.29,100,Refinery Inlet,warning
+S005,2024-01-01 01:30:00,7.86,50.36,215.32,100,Refinery Inlet,normal
+S005,2024-01-01 02:00:00,6.43,49.41,194.74,99.0,Refinery Inlet,warning
+S005,2024-01-01 02:30:00,7.23,54.44,181.68,94.12,Refinery Inlet,normal
+S005,2024-01-01 03:00:00,6.57,48.04,172.12,93.33,Refinery Inlet,warning
+S005,2024-01-01 03:30:00,8.16,54.88,189.36,99.39,Refinery Inlet,warning
+S005,2024-01-01 04:00:00,7.73,51.13,222.16,98.17,Refinery Inlet,normal
+S005,2024-01-01 04:30:00,6.69,51.1,208.05,99.19,Refinery Inlet,warning
+S005,2024-01-01 05:00:00,7.65,52.72,216.12,93.75,Refinery Inlet,normal
+S005,2024-01-01 05:30:00,7.22,54.77,208.73,99.6,Refinery Inlet,normal
+S005,2024-01-01 06:00:00,7.99,50.12,205.15,93.67,Refinery Inlet,warning
+S005,2024-01-01 06:30:00,6.46,52.8,224.81,97.22,Refinery Inlet,warning
+S005,2024-01-01 07:00:00,7.45,48.3,205.5,94.31,Refinery Inlet,normal
+S005,2024-01-01 07:30:00,6.5,49.73,184.7,94.79,Refinery Inlet,warning
+S005,2024-01-01 08:00:00,6.72,50.24,218.35,97.39,Refinery Inlet,normal
+S005,2024-01-01 08:30:00,7.13,54.38,182.29,100,Refinery Inlet,normal
+S005,2024-01-01 09:00:00,7.75,52.58,195.88,100,Refinery Inlet,normal
+S005,2024-01-01 09:30:00,7.38,49.64,173.6,100,Refinery Inlet,normal
+S005,2024-01-01 10:00:00,6.9,49.95,214.45,94.13,Refinery Inlet,normal
+S005,2024-01-01 10:30:00,6.64,47.32,175.77,94.82,Refinery Inlet,warning
+S005,2024-01-01 11:00:00,6.87,53.84,174.48,94.57,Refinery Inlet,normal
+S005,2024-01-01 11:30:00,7.6,49.09,224.2,97.92,Refinery Inlet,normal
+S005,2024-01-01 12:00:00,7.96,48.27,184.94,100,Refinery Inlet,warning
+S005,2024-01-01 12:30:00,7.65,48.68,174.53,100,Refinery Inlet,normal
+S005,2024-01-01 13:00:00,6.75,54.09,173.54,93.46,Refinery Inlet,normal
+S005,2024-01-01 13:30:00,6.58,50.93,172.64,99.84,Refinery Inlet,warning
+S005,2024-01-01 14:00:00,6.89,48.86,221.11,100,Refinery Inlet,normal
+S005,2024-01-01 14:30:00,7.26,52.96,227.26,94.87,Refinery Inlet,normal
+S005,2024-01-01 15:00:00,6.6,54.46,203.17,100,Refinery Inlet,warning
+S005,2024-01-01 15:30:00,6.71,48.26,172.43,95.99,Refinery Inlet,warning
+S005,2024-01-01 16:00:00,6.64,47.06,171.24,95.99,Refinery Inlet,warning
+S005,2024-01-01 16:30:00,8.15,54.99,215.3,94.15,Refinery Inlet,warning
+S005,2024-01-01 17:00:00,7.75,48.05,184.47,93.76,Refinery Inlet,normal
+S005,2024-01-01 17:30:00,8.01,55.02,172.55,100,Refinery Inlet,warning
+S005,2024-01-01 18:00:00,7.39,51.08,215.28,98.86,Refinery Inlet,normal
+S005,2024-01-01 18:30:00,8.11,48.98,190.86,93.53,Refinery Inlet,warning
+S005,2024-01-01 19:00:00,7.23,47.3,211.7,100,Refinery Inlet,normal
+S005,2024-01-01 19:30:00,7.27,47.71,171.6,97.58,Refinery Inlet,normal
+S005,2024-01-01 20:00:00,7.73,50.66,205.31,93.26,Refinery Inlet,normal
+S005,2024-01-01 20:30:00,7.78,52.19,219.99,93.59,Refinery Inlet,normal
+S005,2024-01-01 21:00:00,7.58,50.84,222.78,98.3,Refinery Inlet,normal
+S005,2024-01-01 21:30:00,6.46,49.37,207.45,96.53,Refinery Inlet,warning
+S005,2024-01-01 22:00:00,6.85,54.47,182.87,96.22,Refinery Inlet,normal
+S005,2024-01-01 22:30:00,7.42,48.02,189.66,95.19,Refinery Inlet,normal
+S005,2024-01-01 23:00:00,6.72,52.16,177.98,97.67,Refinery Inlet,normal
+S005,2024-01-01 23:30:00,7.23,48.54,206.14,99.0,Refinery Inlet,normal
+S005,2024-01-02 00:00:00,7.99,54.63,197.01,100,Refinery Inlet,warning
+S005,2024-01-02 00:30:00,7.15,51.52,199.46,99.32,Refinery Inlet,normal
+S005,2024-01-02 01:00:00,7.21,53.41,213.29,97.49,Refinery Inlet,normal
+S005,2024-01-02 01:30:00,7.27,53.44,171.28,95.25,Refinery Inlet,normal
+S005,2024-01-02 02:00:00,6.53,50.8,198.8,100,Refinery Inlet,warning
+S005,2024-01-02 02:30:00,7.18,49.69,190.24,100,Refinery Inlet,normal
+S005,2024-01-02 03:00:00,7.15,50.32,225.41,100,Refinery Inlet,normal
+S005,2024-01-02 03:30:00,7.17,50.83,201.2,100,Refinery Inlet,normal
+S005,2024-01-02 04:00:00,7.13,46.94,182.98,97.76,Refinery Inlet,normal
+S005,2024-01-02 04:30:00,8.12,46.93,184.84,95.48,Refinery Inlet,warning
+S005,2024-01-02 05:00:00,8.18,52.05,225.84,100,Refinery Inlet,warning
+S005,2024-01-02 05:30:00,6.85,46.97,192.91,93.2,Refinery Inlet,normal
+S005,2024-01-02 06:00:00,7.25,48.6,227.08,96.34,Refinery Inlet,normal
+S005,2024-01-02 06:30:00,7.61,52.55,201.22,96.79,Refinery Inlet,normal
+S005,2024-01-02 07:00:00,6.51,49.0,227.09,98.97,Refinery Inlet,warning
+S005,2024-01-02 07:30:00,7.9,47.01,190.02,95.27,Refinery Inlet,warning
+S005,2024-01-02 08:00:00,7.79,53.67,219.51,99.56,Refinery Inlet,normal
+S005,2024-01-02 08:30:00,7.51,51.9,210.55,95.83,Refinery Inlet,normal
+S005,2024-01-02 09:00:00,7.58,52.61,224.02,93.94,Refinery Inlet,normal
+S005,2024-01-02 09:30:00,7.52,47.5,188.2,100,Refinery Inlet,normal
+S005,2024-01-02 10:00:00,8.1,50.12,170.78,94.2,Refinery Inlet,warning
+S005,2024-01-02 10:30:00,7.38,54.03,173.44,95.83,Refinery Inlet,normal
+S005,2024-01-02 11:00:00,7.97,50.35,176.16,98.51,Refinery Inlet,warning
+S005,2024-01-02 11:30:00,7.69,53.42,216.91,96.32,Refinery Inlet,normal
+S005,2024-01-02 12:00:00,7.15,50.32,224.75,100,Refinery Inlet,normal
+S005,2024-01-02 12:30:00,7.52,53.35,220.09,100,Refinery Inlet,normal
+S005,2024-01-02 13:00:00,7.43,47.94,208.52,96.91,Refinery Inlet,normal
+S005,2024-01-02 13:30:00,6.79,49.2,211.63,99.97,Refinery Inlet,normal
+S005,2024-01-02 14:00:00,7.31,48.87,194.05,93.36,Refinery Inlet,normal
+S005,2024-01-02 14:30:00,7.11,50.25,196.57,100,Refinery Inlet,normal
+S005,2024-01-02 15:00:00,6.72,53.76,207.4,96.77,Refinery Inlet,normal
+S005,2024-01-02 15:30:00,7.81,53.76,206.45,98.07,Refinery Inlet,normal
+S005,2024-01-02 16:00:00,6.72,53.9,175.29,99.16,Refinery Inlet,normal
+S005,2024-01-02 16:30:00,7.99,48.14,200.81,94.68,Refinery Inlet,warning
+S005,2024-01-02 17:00:00,8.12,48.24,201.43,93.84,Refinery Inlet,warning
+S005,2024-01-02 17:30:00,6.67,52.9,204.92,95.37,Refinery Inlet,warning
+S005,2024-01-02 18:00:00,7.95,48.81,184.72,94.36,Refinery Inlet,warning
+S005,2024-01-02 18:30:00,7.25,51.65,180.42,100,Refinery Inlet,normal
+S005,2024-01-02 19:00:00,6.81,51.04,221.84,100,Refinery Inlet,normal
+S005,2024-01-02 19:30:00,7.25,52.21,198.1,100,Refinery Inlet,normal
+S005,2024-01-02 20:00:00,7.14,53.6,216.05,98.03,Refinery Inlet,normal
+S005,2024-01-02 20:30:00,7.77,52.42,229.6,98.76,Refinery Inlet,normal
+S005,2024-01-02 21:00:00,7.23,47.42,205.08,98.82,Refinery Inlet,normal
+S005,2024-01-02 21:30:00,6.98,48.39,171.13,94.77,Refinery Inlet,normal
+S005,2024-01-02 22:00:00,7.16,52.75,183.54,96.78,Refinery Inlet,normal
+S005,2024-01-02 22:30:00,6.6,47.42,216.15,93.78,Refinery Inlet,warning
+S005,2024-01-02 23:00:00,6.85,50.0,174.8,96.35,Refinery Inlet,normal
+S005,2024-01-02 23:30:00,7.97,54.82,216.8,94.52,Refinery Inlet,warning
+S005,2024-01-03 00:00:00,7.03,48.73,194.12,100,Refinery Inlet,normal
+S005,2024-01-03 00:30:00,6.67,51.73,183.99,94.48,Refinery Inlet,warning
+S005,2024-01-03 01:00:00,7.63,53.52,173.55,93.88,Refinery Inlet,normal
+S005,2024-01-03 01:30:00,7.98,54.51,209.69,100,Refinery Inlet,warning
+S005,2024-01-03 02:00:00,7.78,53.51,201.38,93.99,Refinery Inlet,normal
+S005,2024-01-03 02:30:00,6.43,54.86,170.24,100,Refinery Inlet,warning
+S005,2024-01-03 03:00:00,6.91,51.7,224.09,100,Refinery Inlet,normal
+S005,2024-01-03 03:30:00,7.07,47.87,176.78,99.66,Refinery Inlet,normal
+S005,2024-01-03 04:00:00,7.26,52.89,200.12,99.24,Refinery Inlet,normal
+S005,2024-01-03 04:30:00,7.59,48.29,184.32,98.98,Refinery Inlet,normal
+S005,2024-01-03 05:00:00,7.13,54.33,229.57,95.31,Refinery Inlet,normal
+S005,2024-01-03 05:30:00,6.89,47.9,178.73,95.19,Refinery Inlet,normal
+S005,2024-01-03 06:00:00,7.62,50.15,181.96,93.59,Refinery Inlet,normal
+S005,2024-01-03 06:30:00,6.47,52.01,178.52,98.02,Refinery Inlet,warning
+S005,2024-01-03 07:00:00,6.84,51.77,216.2,97.28,Refinery Inlet,normal
+S005,2024-01-03 07:30:00,7.47,47.78,178.85,93.64,Refinery Inlet,normal
+S005,2024-01-03 08:00:00,6.93,49.01,216.83,98.16,Refinery Inlet,normal
+S005,2024-01-03 08:30:00,7.86,50.06,182.7,100,Refinery Inlet,normal
+S005,2024-01-03 09:00:00,7.43,47.77,175.68,97.6,Refinery Inlet,normal
+S005,2024-01-03 09:30:00,7.07,55.02,222.63,98.44,Refinery Inlet,normal
+S005,2024-01-03 10:00:00,7.99,53.72,184.89,99.05,Refinery Inlet,warning
+S005,2024-01-03 10:30:00,6.93,47.7,188.85,100,Refinery Inlet,normal
+S005,2024-01-03 11:00:00,7.04,53.45,220.31,100,Refinery Inlet,normal
+S005,2024-01-03 11:30:00,6.51,54.67,203.56,100,Refinery Inlet,warning
+S005,2024-01-03 12:00:00,7.56,50.21,193.44,100,Refinery Inlet,normal
+S005,2024-01-03 12:30:00,6.54,48.43,209.3,100,Refinery Inlet,warning
+S005,2024-01-03 13:00:00,6.65,54.81,199.0,97.16,Refinery Inlet,warning
+S005,2024-01-03 13:30:00,6.59,51.84,202.75,98.06,Refinery Inlet,warning
+S005,2024-01-03 14:00:00,7.75,49.21,200.2,100,Refinery Inlet,normal
+S005,2024-01-03 14:30:00,7.42,52.9,208.8,97.25,Refinery Inlet,normal
+S005,2024-01-03 15:00:00,7.53,47.44,214.03,99.03,Refinery Inlet,normal
+S005,2024-01-03 15:30:00,6.6,49.53,210.97,99.99,Refinery Inlet,warning
+S005,2024-01-03 16:00:00,7.04,49.21,201.8,100,Refinery Inlet,normal
+S005,2024-01-03 16:30:00,6.91,51.39,196.42,100,Refinery Inlet,normal
+S005,2024-01-03 17:00:00,8.06,51.52,211.34,98.53,Refinery Inlet,warning
+S005,2024-01-03 17:30:00,7.73,53.96,193.15,98.65,Refinery Inlet,normal
+S005,2024-01-03 18:00:00,8.07,53.2,184.91,96.79,Refinery Inlet,warning
+S005,2024-01-03 18:30:00,6.49,50.81,193.2,95.51,Refinery Inlet,warning
+S005,2024-01-03 19:00:00,6.58,51.59,211.45,100,Refinery Inlet,warning
+S005,2024-01-03 19:30:00,7.15,50.04,214.35,99.82,Refinery Inlet,normal
+S005,2024-01-03 20:00:00,6.6,51.41,198.08,98.59,Refinery Inlet,warning
+S005,2024-01-03 20:30:00,7.09,54.5,206.31,95.69,Refinery Inlet,normal
+S005,2024-01-03 21:00:00,7.28,53.0,224.33,94.55,Refinery Inlet,normal
+S005,2024-01-03 21:30:00,7.16,48.54,204.01,94.89,Refinery Inlet,normal
+S005,2024-01-03 22:00:00,6.83,50.69,202.71,100,Refinery Inlet,normal
+S005,2024-01-03 22:30:00,7.32,51.74,181.94,94.91,Refinery Inlet,normal
+S005,2024-01-03 23:00:00,8.07,51.27,208.99,97.04,Refinery Inlet,warning
+S005,2024-01-03 23:30:00,6.54,53.32,179.98,93.33,Refinery Inlet,warning
+S005,2024-01-04 00:00:00,7.33,47.94,183.35,100,Refinery Inlet,normal
+S005,2024-01-04 00:30:00,6.75,53.56,226.55,95.84,Refinery Inlet,normal
+S005,2024-01-04 01:00:00,7.41,50.41,202.05,94.86,Refinery Inlet,normal
+S005,2024-01-04 01:30:00,7.78,47.59,178.69,100,Refinery Inlet,normal
+S005,2024-01-04 02:00:00,7.14,52.71,181.4,100,Refinery Inlet,normal
+S005,2024-01-04 02:30:00,7.0,47.81,215.9,100,Refinery Inlet,normal
+S005,2024-01-04 03:00:00,6.6,54.57,211.61,100,Refinery Inlet,warning
+S005,2024-01-04 03:30:00,6.8,48.13,223.98,96.6,Refinery Inlet,normal
+S005,2024-01-04 04:00:00,8.12,50.94,185.24,100,Refinery Inlet,warning
+S005,2024-01-04 04:30:00,6.5,47.92,208.71,94.74,Refinery Inlet,warning
+S005,2024-01-04 05:00:00,7.03,52.52,187.43,98.14,Refinery Inlet,normal
+S005,2024-01-04 05:30:00,6.95,53.85,177.24,94.72,Refinery Inlet,normal
+S005,2024-01-04 06:00:00,7.75,53.34,175.46,94.58,Refinery Inlet,normal
+S005,2024-01-04 06:30:00,7.05,54.73,197.55,95.22,Refinery Inlet,normal
+S005,2024-01-04 07:00:00,7.27,49.75,216.85,95.21,Refinery Inlet,normal
+S005,2024-01-04 07:30:00,7.37,51.64,227.01,98.62,Refinery Inlet,normal
+S005,2024-01-04 08:00:00,7.85,48.45,215.22,97.44,Refinery Inlet,normal
+S005,2024-01-04 08:30:00,6.75,54.14,198.84,96.6,Refinery Inlet,normal
+S005,2024-01-04 09:00:00,8.01,52.79,207.26,94.24,Refinery Inlet,warning
+S005,2024-01-04 09:30:00,6.68,53.26,183.83,96.92,Refinery Inlet,warning
+S005,2024-01-04 10:00:00,7.64,54.83,178.34,99.68,Refinery Inlet,normal
+S005,2024-01-04 10:30:00,8.14,48.12,222.51,96.79,Refinery Inlet,warning
+S005,2024-01-04 11:00:00,6.74,53.93,216.31,96.62,Refinery Inlet,normal
+S005,2024-01-04 11:30:00,7.55,54.12,198.95,96.76,Refinery Inlet,normal
+S005,2024-01-04 12:00:00,7.58,51.17,194.88,98.96,Refinery Inlet,normal
+S005,2024-01-04 12:30:00,7.19,54.04,228.98,93.54,Refinery Inlet,normal
+S005,2024-01-04 13:00:00,7.14,54.66,185.25,100,Refinery Inlet,normal
+S005,2024-01-04 13:30:00,6.78,54.93,228.99,99.2,Refinery Inlet,normal
+S005,2024-01-04 14:00:00,7.87,51.88,192.73,95.23,Refinery Inlet,normal
+S005,2024-01-04 14:30:00,7.07,54.99,173.15,100,Refinery Inlet,normal
+S005,2024-01-04 15:00:00,7.93,53.7,173.57,97.56,Refinery Inlet,warning
+S005,2024-01-04 15:30:00,7.73,51.55,228.68,93.79,Refinery Inlet,normal
+S005,2024-01-04 16:00:00,7.25,49.07,228.16,94.34,Refinery Inlet,normal
+S005,2024-01-04 16:30:00,6.94,51.19,180.51,98.27,Refinery Inlet,normal
+S005,2024-01-04 17:00:00,6.8,52.91,201.08,100,Refinery Inlet,normal
+S005,2024-01-04 17:30:00,8.12,51.76,225.86,93.4,Refinery Inlet,warning
+S005,2024-01-04 18:00:00,6.6,47.26,215.51,93.73,Refinery Inlet,warning
+S005,2024-01-04 18:30:00,7.11,48.0,170.14,100,Refinery Inlet,normal
+S005,2024-01-04 19:00:00,8.04,52.19,185.18,96.51,Refinery Inlet,warning
+S005,2024-01-04 19:30:00,6.89,54.67,202.24,100,Refinery Inlet,normal
+S005,2024-01-04 20:00:00,8.01,53.92,171.07,99.1,Refinery Inlet,warning
+S005,2024-01-04 20:30:00,7.38,54.86,228.59,99.79,Refinery Inlet,normal
+S005,2024-01-04 21:00:00,8.07,52.09,172.78,95.25,Refinery Inlet,warning
+S005,2024-01-04 21:30:00,6.99,49.85,218.84,100,Refinery Inlet,normal
+S005,2024-01-04 22:00:00,6.58,48.23,193.82,100,Refinery Inlet,warning
+S005,2024-01-04 22:30:00,6.58,47.11,171.77,100,Refinery Inlet,warning
+S005,2024-01-04 23:00:00,7.41,55.01,191.56,95.83,Refinery Inlet,normal
+S005,2024-01-04 23:30:00,7.29,52.69,214.12,100,Refinery Inlet,normal
+S005,2024-01-05 00:00:00,6.77,54.28,212.61,100,Refinery Inlet,normal
+S005,2024-01-05 00:30:00,8.06,51.69,204.48,97.45,Refinery Inlet,warning
+S005,2024-01-05 01:00:00,6.99,53.08,202.67,98.9,Refinery Inlet,normal
+S005,2024-01-05 01:30:00,7.17,54.73,193.82,100,Refinery Inlet,normal
+S005,2024-01-05 02:00:00,7.56,53.6,207.62,100,Refinery Inlet,normal
+S005,2024-01-05 02:30:00,7.42,48.64,224.9,99.88,Refinery Inlet,normal
+S005,2024-01-05 03:00:00,6.86,54.9,210.2,97.91,Refinery Inlet,normal
+S005,2024-01-05 03:30:00,6.67,50.44,193.23,93.65,Refinery Inlet,warning

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ascentt Platform</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f5f4f2;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e8e4de;
+      padding: 0 40px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    }
+
+    header img { height: 36px; object-fit: contain; }
+
+    .header-badge {
+      font-size: 12px;
+      font-weight: 600;
+      color: #58595B;
+      background: #FEF3E8;
+      border: 1px solid #FBCFA4;
+      border-radius: 20px;
+      padding: 4px 14px;
+      letter-spacing: 0.3px;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      text-align: center;
+      padding: 72px 24px 48px;
+    }
+
+    .hero-eyebrow {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #F47920;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 800;
+      color: #1a1a1a;
+      line-height: 1.15;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero h1 span { color: #F47920; }
+
+    .hero p {
+      font-size: 17px;
+      color: #58595B;
+      max-width: 520px;
+      margin: 0 auto;
+      line-height: 1.65;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #F47920, #D4621A);
+      border-radius: 2px;
+      margin: 32px auto 0;
+    }
+
+    /* ── Cards ── */
+    .cards-section {
+      flex: 1;
+      padding: 48px 40px 72px;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    @media (max-width: 900px) {
+      .cards-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 18px;
+      border: 1px solid #e8e4de;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 32px rgba(244,121,32,0.15);
+      border-color: #FBCFA4;
+    }
+
+    .card-top {
+      padding: 32px 28px 24px;
+      border-bottom: 1px solid #f0ece6;
+    }
+
+    .card-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    .card-icon.orange  { background: linear-gradient(135deg, #F47920, #D4621A); }
+    .card-icon.teal    { background: linear-gradient(135deg, #0891b2, #0e7490); }
+    .card-icon.green   { background: linear-gradient(135deg, #059669, #047857); }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin-bottom: 6px;
+      letter-spacing: -0.3px;
+    }
+
+    .card-subtitle {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #F47920;
+      margin-bottom: 12px;
+    }
+
+    .card-desc {
+      font-size: 14px;
+      color: #58595B;
+      line-height: 1.65;
+    }
+
+    .card-body {
+      padding: 20px 28px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 13px;
+      color: #4a4a4a;
+      line-height: 1.5;
+    }
+
+    .feature-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #F47920;
+      flex-shrink: 0;
+      margin-top: 6px;
+    }
+
+    .card-footer {
+      padding: 20px 28px 28px;
+    }
+
+    .launch-btn {
+      display: block;
+      width: 100%;
+      padding: 13px 20px;
+      background: linear-gradient(135deg, #F47920, #D4621A);
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      letter-spacing: 0.3px;
+      transition: opacity 0.15s ease, box-shadow 0.15s ease;
+      box-shadow: 0 3px 12px rgba(244,121,32,0.35);
+    }
+
+    .launch-btn:hover {
+      opacity: 0.92;
+      box-shadow: 0 6px 20px rgba(244,121,32,0.45);
+    }
+
+    .port-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: #94a3b8;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .port-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #22c55e;
+      box-shadow: 0 0 0 2px #bbf7d0;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: #94a3b8;
+      border-top: 1px solid #e8e4de;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="ascentt.png" alt="Ascentt" />
+    <span class="header-badge">Unified Analytics Platform</span>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-eyebrow">Welcome to Ascentt</div>
+    <h1>One Platform,<br/><span>Three Powerful Applications</span></h1>
+    <p>Select an application below to launch it. Each application runs independently with its own data, analytics and AI capabilities.</p>
+    <div class="divider"></div>
+  </div>
+
+  <!-- App Cards -->
+  <div class="cards-section">
+    <div class="cards-grid">
+
+      <!-- Petrol IoT Monitor -->
+      <div class="card">
+        <div class="card-top">
+          <div class="card-icon orange">🛢️</div>
+          <div class="card-subtitle">IoT Monitoring</div>
+          <div class="card-title">Petrol IoT Monitor</div>
+          <div class="card-desc">Real-time pipeline sensor monitoring across a 100-node oil & gas network spanning Texas and Oklahoma.</div>
+        </div>
+        <div class="card-body">
+          <div class="feature-item"><div class="feature-dot"></div>Live sensor readings — pressure, temperature, flow & fuel</div>
+          <div class="feature-item"><div class="feature-dot"></div>Predictive anomaly detection with time-to-critical estimates</div>
+          <div class="feature-item"><div class="feature-dot"></div>Disaster event simulation (hurricane, earthquake, flood & more)</div>
+          <div class="feature-item"><div class="feature-dot"></div>AI pipeline assistant for instant operational queries</div>
+        </div>
+        <div class="card-footer">
+          <a class="launch-btn" href="http://localhost:3001" target="_blank">Launch Application →</a>
+          <div class="port-badge"><div class="port-dot"></div>Running on localhost:3001</div>
+        </div>
+      </div>
+
+      <!-- Causal Intelligence -->
+      <div class="card">
+        <div class="card-top">
+          <div class="card-icon teal">🔗</div>
+          <div class="card-subtitle">Causal Analytics</div>
+          <div class="card-title">Causal Intelligence</div>
+          <div class="card-desc">Discover cause-and-effect relationships in your supply chain and operational data using advanced causal graph analysis.</div>
+        </div>
+        <div class="card-body">
+          <div class="feature-item"><div class="feature-dot"></div>Interactive causal graph visualization</div>
+          <div class="feature-item"><div class="feature-dot"></div>Root cause identification across supply chain data</div>
+          <div class="feature-item"><div class="feature-dot"></div>What-if scenario analysis and impact tracing</div>
+          <div class="feature-item"><div class="feature-dot"></div>Node-level drill-down for any causal relationship</div>
+        </div>
+        <div class="card-footer">
+          <a class="launch-btn" href="http://localhost:3002" target="_blank">Launch Application →</a>
+          <div class="port-badge"><div class="port-dot"></div>Running on localhost:3002</div>
+        </div>
+      </div>
+
+      <!-- GAINS -->
+      <div class="card">
+        <div class="card-top">
+          <div class="card-icon green">📊</div>
+          <div class="card-subtitle">Graph Analytics</div>
+          <div class="card-title">GAINS</div>
+          <div class="card-desc">Graph-powered freight cost analytics and network intelligence with Snowflake data integration and Neo4j graph database.</div>
+        </div>
+        <div class="card-body">
+          <div class="feature-item"><div class="feature-dot"></div>Freight cost analytics across 2000+ data points</div>
+          <div class="feature-item"><div class="feature-dot"></div>Neo4j graph database powered network visualization</div>
+          <div class="feature-item"><div class="feature-dot"></div>Snowflake data integration with live querying</div>
+          <div class="feature-item"><div class="feature-dot"></div>AI-assisted insights and reporting</div>
+        </div>
+        <div class="card-footer">
+          <a class="launch-btn" href="http://localhost:5173" target="_blank">Launch Application →</a>
+          <div class="port-badge"><div class="port-dot"></div>Running on localhost:5173</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 Ascentt &nbsp;·&nbsp; Unified Analytics Platform &nbsp;·&nbsp; All rights reserved
+  </footer>
+
+</body>
+</html>

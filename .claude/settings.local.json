@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:\\\\Users\\\\DhruvilPatel\\\\Desktop\\\\petrol-iot-dashboard\\\\chatbot\\\\venv\\\\Scripts\\\\python.exe\" --version)"
+    ]
+  }
+}

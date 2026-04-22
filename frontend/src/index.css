@@ -1,0 +1,47 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #f8f7f5;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button { font-family: inherit; }
+
+/* ── Scrollbar ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* ── Text selection ────────────────────────────────────────────────────────── */
+::selection { background: #FBCFA4; color: #D4621A; }
+
+/* ── Neo4j-style Leaflet nodes ─────────────────────────────────────────────── */
+.neo4j-icon {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.neo4j-icon > div { display: flex !important; }
+
+/* ── Leaflet tooltip ───────────────────────────────────────────────────────── */
+.leaflet-tooltip {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10), 0 2px 6px rgba(0,0,0,0.06) !important;
+  padding: 11px 14px !important;
+  color: #0f172a !important;
+  font-family: system-ui, -apple-system, sans-serif !important;
+}
+.leaflet-tooltip::before { display: none !important; }
+
+/* ── Leaflet zoom control ──────────────────────────────────────────────────── */
+.leaflet-control-zoom a {
+  font-family: system-ui !important;
+  color: #475569 !important;
+  border-color: #e2e8f0 !important;
+}
+.leaflet-control-zoom a:hover { color: #0f172a !important; }
