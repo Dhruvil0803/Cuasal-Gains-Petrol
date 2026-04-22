@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+const HOST = import.meta.env.VITE_HOST || 'localhost'
+
 const APPS = [
   {
     id: 'petrol',
@@ -13,7 +15,7 @@ const APPS = [
       'Disaster event simulation — hurricane, earthquake, flood & more',
       'AI pipeline assistant for instant operational queries',
     ],
-    url: 'http://localhost:3001',
+    url: `http://${HOST}:3001`,
     port: '3001',
     iconBg: 'from-[#F47920] to-[#D4621A]',
     tagColor: 'text-[#F47920]',
@@ -32,7 +34,7 @@ const APPS = [
       'What-if scenario analysis and impact tracing',
       'Node-level drill-down for any causal relationship',
     ],
-    url: 'http://localhost:3002',
+    url: `http://${HOST}:3002`,
     port: '3002',
     iconBg: 'from-[#0891b2] to-[#0e7490]',
     tagColor: 'text-[#0891b2]',
@@ -51,7 +53,7 @@ const APPS = [
       'Snowflake data integration with live querying',
       'AI-assisted insights and reporting',
     ],
-    url: 'http://localhost:5173',
+    url: `http://${HOST}:5173`,
     port: '5173',
     iconBg: 'from-[#059669] to-[#047857]',
     tagColor: 'text-[#059669]',
