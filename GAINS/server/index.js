@@ -86,10 +86,20 @@ function requireAuth(req, res, next) {
 
 import neo4j from "neo4j-driver";
 
-const driver = neo4j.driver(
-  process.env.NEO4J_URI,
-  neo4j.auth.basic(process.env.NEO4J_USER, process.env.NEO4J_PASSWORD)
-);
+let driver = null;
+if (process.env.NEO4J_URI) {
+  try {
+    driver = neo4j.driver(
+      process.env.NEO4J_URI,
+      neo4j.auth.basic(process.env.NEO4J_USER, process.env.NEO4J_PASSWORD)
+    );
+    console.log("[neo4j] Driver created for", process.env.NEO4J_URI);
+  } catch (e) {
+    console.warn("[neo4j] Driver init failed:", e.message);
+  }
+} else {
+  console.warn("[neo4j] NEO4J_URI not set — graph queries disabled");
+}
 
 // Protect all /api/* and /llm/* endpoints
 app.use("/api", requireAuth);
@@ -97,6 +107,7 @@ app.use("/llm", requireAuth);
 
 // READ
 app.post("/api/neo4j/query", async (req, res) => {
+  if (!driver) return res.status(503).json({ error: "Neo4j not configured" });
   const { cypher, params } = req.body || {};
   if (!cypher) return res.status(400).json({ error: "cypher required" });
 
@@ -128,7 +139,7 @@ app.post("/api/neo4j/query", async (req, res) => {
 // });
 
 // graceful shutdown
-process.on("SIGINT", async () => { await driver.close(); process.exit(0); });
+process.on("SIGINT", async () => { if (driver) await driver.close(); process.exit(0); });
 
 // === Neo4j over HTTP (additive & safe) ===
 // === Neo4j via HTTP (additive + reversible) ===
