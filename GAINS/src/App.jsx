@@ -169,69 +169,6 @@ export default function App() {
         <div className="brand">
           <img src={ascenttLogo} alt="Ascentt" />
         </div>
-        {/* Auth section */}
-        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          {user ? (
-            <div
-              title={user.email || user.displayName}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 10,
-                padding: "6px 10px",
-                borderRadius: 999,
-                border: "1px solid #e5e7eb",
-                background:
-                  "linear-gradient(180deg, rgba(255,255,255,0.9), #f8fafc)",
-                boxShadow: "0 1px 2px rgba(0,0,0,.05)",
-              }}
-            >
-              <div
-                style={{
-                  width: 28,
-                  height: 28,
-                  borderRadius: "50%",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontWeight: 800,
-                  color: "#0f172a",
-                  background: "#e2e8f0",
-                  border: "1px solid #e5e7eb",
-                }}
-              >
-                {initials}
-              </div>
-              <div style={{ display: "flex", flexDirection: "column", lineHeight: 1 }}>
-                <span style={{ color: "#0f172a", fontWeight: 700, fontSize: 13 }}>
-                  {user.displayName || user.email}
-                </span>
-                {user.email ? (
-                  <span style={{ color: "#64748b", fontSize: 12 }}>
-                    {user.email}
-                  </span>
-                ) : null}
-              </div>
-              <button
-                onClick={logout}
-                style={{
-                  marginLeft: 6,
-                  padding: "6px 10px",
-                  borderRadius: 10,
-                  border: "1px solid #ef4444",
-                  background: "linear-gradient(180deg, #fff, #fff)",
-                  color: "#ef4444",
-                  fontWeight: 800,
-                  cursor: "pointer",
-                }}
-              >
-                Logout
-              </button>
-            </div>
-          ) : (
-            <a className="tab" href="/auth/google">Login with Google</a>
-          )}
-        </div>
         <div className="tabs">
           <a
             href="http://localhost:3000"
