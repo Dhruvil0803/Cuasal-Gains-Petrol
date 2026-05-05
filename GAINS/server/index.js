@@ -101,9 +101,9 @@ if (process.env.NEO4J_URI) {
   console.warn("[neo4j] NEO4J_URI not set — graph queries disabled");
 }
 
-// Protect all /api/* and /llm/* endpoints
-app.use("/api", requireAuth);
-app.use("/llm", requireAuth);
+// Auth bypassed — /api/* and /llm/* open without login
+// app.use("/api", requireAuth);
+// app.use("/llm", requireAuth);
 
 // READ
 app.post("/api/neo4j/query", async (req, res) => {

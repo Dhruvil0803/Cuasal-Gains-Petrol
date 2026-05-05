@@ -143,10 +143,7 @@ export default function App() {
     return (local.slice(0, 2) || "?").toUpperCase();
   }, [user]);
 
-  // If auth check done and not logged in, render only login screen
-  if (authChecked && !user) {
-    return <Login />;
-  }
+  // Auth bypassed — app accessible without login
 
   return (
     <div className="shell">
