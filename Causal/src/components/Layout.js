@@ -57,7 +57,7 @@ export default function Layout({ children }) {
 
           <div className="ml-auto flex items-center gap-2">
             <a
-              href="http://localhost:3000"
+              href="/"
               style={{ textDecoration: "none" }}
               className="text-[12px] font-bold text-[#58595B] border border-[#e8e4de] bg-[#f5f4f2] hover:bg-[#FEF3E8] hover:border-[#FBCFA4] hover:text-[#F47920] transition-colors px-3 py-1.5 rounded-lg"
             >

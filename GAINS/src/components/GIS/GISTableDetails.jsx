@@ -41,7 +41,7 @@ export default function GISTableDetails({ tableRef, onBack }) {
     (async () => {
       setLoading(true); setErr("");
       try {
-        const url = `/api/snowflake/table-details?db=${encodeURIComponent(database)}&schema=${encodeURIComponent(schema)}&table=${encodeURIComponent(name)}`;
+        const url = `/gains/api/snowflake/table-details?db=${encodeURIComponent(database)}&schema=${encodeURIComponent(schema)}&table=${encodeURIComponent(name)}`;
         const r = await fetch(url);
         const data = await r.json();
         if (!r.ok || !data?.ok) throw new Error(data?.error || `HTTP ${r.status}`);
@@ -57,7 +57,7 @@ export default function GISTableDetails({ tableRef, onBack }) {
     if (!database || !schema || !name) return;
     setDataLoading(true); setDataErr(""); setRows([]);
     try {
-      const url = `/api/snowflake/table-data?db=${encodeURIComponent(database)}&schema=${encodeURIComponent(schema)}&table=${encodeURIComponent(name)}&limit=${encodeURIComponent(limit)}`;
+      const url = `/gains/api/snowflake/table-data?db=${encodeURIComponent(database)}&schema=${encodeURIComponent(schema)}&table=${encodeURIComponent(name)}&limit=${encodeURIComponent(limit)}`;
       const r = await fetch(url);
       const data = await r.json();
       if (!r.ok || !data?.ok) throw new Error(data?.error || `HTTP ${r.status}`);

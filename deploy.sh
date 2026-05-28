@@ -160,7 +160,6 @@ sudo mkdir -p "$APP_DIR/landing" "$APP_DIR/petrol" "$APP_DIR/causal" "$APP_DIR/g
 
 progress "MODULE 5/6 · Build — Landing page (Vite)"
 cd "$REPO_DIR/landing"
-echo "VITE_HOST=$EC2_IP" > .env.production
 npm run build --silent
 sudo cp -r dist/* "$APP_DIR/landing/"
 echo "  ✓ Landing built → $APP_DIR/landing/"
@@ -212,11 +211,11 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo "  $(bar 100) 100%"
 echo "  ✓ Deployment complete in ${TOTAL_TIME}s!"
 echo ""
-echo "  MODULE          URL"
+echo "  MODULE          PATH (under the ALB/HTTPS domain)"
 echo "  ─────────────────────────────────────────────────────"
-echo "  Landing Page  → http://$EC2_IP"
-echo "  Petrol IoT    → http://$EC2_IP:3001  (API: :8001)"
-echo "  Causal        → http://$EC2_IP:3002  (API: :8002)"
-echo "  GAINS         → http://$EC2_IP:5173  (API: :3003)"
+echo "  Landing Page  → /"
+echo "  Petrol IoT    → /petrol/   (backend :8001)"
+echo "  Causal        → /causal/   (backend :8002)"
+echo "  GAINS         → /gains/    (backend :3003)"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""

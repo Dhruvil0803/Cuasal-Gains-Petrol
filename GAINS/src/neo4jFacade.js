@@ -37,7 +37,7 @@ export function createDriver() {
           String(cypher || "")
         );
 
-      const endpoint = isWrite ? "/api/neo4j/write" : "/api/neo4j/query";
+      const endpoint = isWrite ? "/gains/api/neo4j/write" : "/gains/api/neo4j/query";
 
       const res = await fetch(endpoint, {
         method: "POST",

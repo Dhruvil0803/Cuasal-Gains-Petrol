@@ -2,6 +2,7 @@
   "name": "petrol-iot-dashboard",
   "version": "1.0.0",
   "private": true,
+  "homepage": "/petrol/",
   "dependencies": {
     "axios": "^1.7.2",
     "leaflet": "^1.9.4",

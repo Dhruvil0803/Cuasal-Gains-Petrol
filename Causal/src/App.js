@@ -10,7 +10,7 @@ import SupplyChainSimulate from "./pages/SupplyChainSimulate";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/causal">
       <AnalysisProvider>
         <GraphProvider>
           <Routes>

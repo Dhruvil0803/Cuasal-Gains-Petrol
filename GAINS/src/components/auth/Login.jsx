@@ -14,7 +14,7 @@ export default function Login() {
         <h1 style={styles.title}>Welcome back</h1>
         <p style={styles.subtitle}>Sign in to continue to your workspace.</p>
 
-        <a href="/auth/google" style={styles.googleBtn}>
+        <a href="/gains/auth/google" style={styles.googleBtn}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20" height="20" style={{ marginRight: 10 }}>
             <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.9 29.3 36 24 36 16.8 36 11 30.2 11 23s5.8-13 13-13c3.3 0 6.3 1.2 8.6 3.3l5.7-5.7C34.6 4.6 29.6 2.5 24 2.5 12.1 2.5 2.5 12.1 2.5 24S12.1 45.5 24 45.5 45.5 35.9 45.5 24c0-1.2-.1-2.3-.3-3.5z"/>
             <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.4 16.2 18.8 13 24 13c3.3 0 6.3 1.2 8.6 3.3l5.7-5.7C34.6 4.6 29.6 2.5 24 2.5 15.2 2.5 7.6 7.4 3.7 14.7z"/>

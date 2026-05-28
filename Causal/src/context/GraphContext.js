@@ -39,7 +39,7 @@ export function GraphProvider({ children }) {
     setError(null);
     setCausalResults(null);
     try {
-      const res = await fetch("/sample_supply_chain.csv");
+      const res = await fetch("/causal/sample_supply_chain.csv");
       const blob = await res.blob();
       const sampleFile = new File([blob], "sample_supply_chain.csv", { type: "text/csv" });
       setLoading(false);

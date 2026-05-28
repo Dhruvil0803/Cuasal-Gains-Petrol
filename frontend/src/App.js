@@ -90,7 +90,7 @@ export default function App() {
         {/* Right side */}
         <div style={{ marginLeft: 'auto', display: 'flex', gap: 8, alignItems: 'center' }}>
           <a
-            href="http://localhost:3000"
+            href="/"
             style={{
               display: 'flex', alignItems: 'center', gap: 5,
               padding: '5px 13px', borderRadius: 8,

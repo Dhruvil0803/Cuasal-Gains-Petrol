@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 
-const HOST = import.meta.env.VITE_HOST || 'localhost'
-
 const APPS = [
   {
     id: 'petrol',
@@ -15,8 +13,8 @@ const APPS = [
       'Disaster event simulation — hurricane, earthquake, flood & more',
       'AI pipeline assistant for instant operational queries',
     ],
-    url: `http://${HOST}:3001`,
-    port: '3001',
+    url: '/petrol/',
+    path: '/petrol',
     iconBg: 'from-[#F47920] to-[#D4621A]',
     tagColor: 'text-[#F47920]',
     hoverBorder: 'hover:border-[#FBCFA4]',
@@ -34,8 +32,8 @@ const APPS = [
       'What-if scenario analysis and impact tracing',
       'Node-level drill-down for any causal relationship',
     ],
-    url: `http://${HOST}:3002`,
-    port: '3002',
+    url: '/causal/',
+    path: '/causal',
     iconBg: 'from-[#0891b2] to-[#0e7490]',
     tagColor: 'text-[#0891b2]',
     hoverBorder: 'hover:border-[#a5f3fc]',
@@ -53,8 +51,8 @@ const APPS = [
       'Snowflake data integration with live querying',
       'AI-assisted insights and reporting',
     ],
-    url: `http://${HOST}:5173`,
-    port: '5173',
+    url: '/gains/',
+    path: '/gains',
     iconBg: 'from-[#059669] to-[#047857]',
     tagColor: 'text-[#059669]',
     hoverBorder: 'hover:border-[#6ee7b7]',
@@ -106,8 +104,6 @@ function AppCard({ app }) {
       <div className="px-7 pb-7 pt-2">
         <a
           href={app.url}
-          target="_blank"
-          rel="noreferrer"
           className="
             block w-full text-center py-3 px-5 rounded-xl
             bg-gradient-to-r from-[#F47920] to-[#D4621A]
@@ -121,7 +117,7 @@ function AppCard({ app }) {
         </a>
         <div className="flex items-center gap-2 mt-3">
           <span className="w-2 h-2 rounded-full bg-green-400 shadow-[0_0_0_3px_#bbf7d0]" />
-          <span className="text-xs text-slate-400 font-semibold">localhost:{app.port}</span>
+          <span className="text-xs text-slate-400 font-semibold">{app.path}</span>
         </div>
       </div>
     </div>

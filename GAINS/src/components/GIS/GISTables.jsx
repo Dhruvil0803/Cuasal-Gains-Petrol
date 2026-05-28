@@ -24,7 +24,7 @@ export default function GISTables({ onOpenDetails }) {
       setLoading(true);
       setErr("");
       try {
-        const r = await fetch("/api/snowflake/tables");
+        const r = await fetch("/gains/api/snowflake/tables");
         const data = await r.json();
         if (!r.ok || !data?.ok) throw new Error(data?.error || `HTTP ${r.status}`);
         setTables(data.tables || []);

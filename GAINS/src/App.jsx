@@ -110,7 +110,7 @@ export default function App() {
   useEffect(() => {
     (async () => {
       try {
-        const r = await fetch("/auth/me", { credentials: "include" });
+        const r = await fetch("/gains/auth/me", { credentials: "include" });
         const d = await r.json();
         setUser(d.user || null);
       } catch {
@@ -123,7 +123,7 @@ export default function App() {
 
   const logout = async () => {
     try {
-      await fetch("/auth/logout", { method: "POST", credentials: "include" });
+      await fetch("/gains/auth/logout", { method: "POST", credentials: "include" });
     } catch {}
     setUser(null);
   };
@@ -171,7 +171,7 @@ export default function App() {
         </div>
         <div className="tabs">
           <a
-            href="http://localhost:3000"
+            href="/"
             style={{
               display: 'flex', alignItems: 'center', gap: 6,
               padding: '7px 14px', borderRadius: 8,

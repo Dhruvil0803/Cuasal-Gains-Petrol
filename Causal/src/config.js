@@ -1,2 +1,2 @@
-const API_BASE = "";
+const API_BASE = "/causal";
 export default API_BASE;

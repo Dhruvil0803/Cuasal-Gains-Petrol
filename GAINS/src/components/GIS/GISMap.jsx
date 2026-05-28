@@ -842,7 +842,7 @@ useEffect(() => {
 
     async function loadLayer(key, limit=2000) {
       if (groupsRef.current[key]) { map.removeLayer(groupsRef.current[key]); }
-      const url = `/api/snowflake/geo?layer=${encodeURIComponent(key)}&limit=${limit}`;
+      const url = `/gains/api/snowflake/geo?layer=${encodeURIComponent(key)}&limit=${limit}`;
       const r = await fetch(url);
       const data = await r.json();
       if (!r.ok || !data?.ok) throw new Error(data?.error || `Failed to load ${key}`);
@@ -1194,7 +1194,7 @@ if (boundsList.length) {
         toLat: String(toLocation.lat),
         toLon: String(toLocation.lon),
       });
-      const r = await fetch(`/api/route?${qs.toString()}`);
+      const r = await fetch(`/gains/api/route?${qs.toString()}`);
       const data = await r.json();
 
       if (r.ok && data?.ok && Array.isArray(data.coordinates) && data.coordinates.length > 1) {

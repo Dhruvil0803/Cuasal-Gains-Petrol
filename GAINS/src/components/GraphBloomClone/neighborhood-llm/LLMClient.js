@@ -26,7 +26,7 @@ async function postJSON(path, body, { signal } = {}) {
  */
 export function analyzeNeighborhood({ snapshot, signal } = {}) {
   if (!snapshot) throw new Error("analyzeNeighborhood: snapshot is required");
-  return postJSON("/llm/analyze-neighborhood", { snapshot }, { signal });
+  return postJSON("/gains/llm/analyze-neighborhood", { snapshot }, { signal });
 }
 
 /**
@@ -37,5 +37,5 @@ export function analyzeNeighborhood({ snapshot, signal } = {}) {
 export function chatNeighborhood({ message, snapshot, signal } = {}) {
   if (!message) throw new Error("chatNeighborhood: message is required");
   if (!snapshot) throw new Error("chatNeighborhood: snapshot is required");
-  return postJSON("/llm/chat", { message, snapshot }, { signal });
+  return postJSON("/gains/llm/chat", { message, snapshot }, { signal });
 }

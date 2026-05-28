@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: '/api' });
+const api = axios.create({ baseURL: '/petrol/api' });
 
 export const getSensors       = ()             => api.get('/sensors').then(r => r.data);
 export const getSensorData    = (id, limit=50) => api.get(`/sensors/${id}?limit=${limit}`).then(r => r.data);

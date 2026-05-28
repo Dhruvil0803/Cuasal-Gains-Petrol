@@ -21,7 +21,7 @@ CREATE USER snow_map_user
 `.trim(),
       };
 
-      const resp = await fetch("/api/snowflake/test", {
+      const resp = await fetch("/gains/api/snowflake/test", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
